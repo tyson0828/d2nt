@@ -1,0 +1,42 @@
+// =============== Reju ===============
+
+//[Name] == RejuvenationPotion //
+[Name] == FullRejuvenationPotion //
+
+
+// =============== Healing ===============
+
+//[Name] == MinorHealingPotion //
+//[Name] == Light HealingPotion //
+//[Name] == HealingPotion //
+//[Name] == GreaterHealingPotion //
+[Name] == SuperHealingPotion //
+
+
+// =============== Mana ===============
+
+//[Name] == MinorManaPotion //
+//[Name] == LightManaPotion //
+//[Name] == ManaPotion //
+//[Name] == GreaterManaPotion //
+[Name] == SuperManaPotion //
+
+
+// =============== Throwing ===============
+
+//[Name] == RancidGasPotion //
+//[Name] == ChokingGasPotion //
+//[Name] == StranglingGasPotion //
+//[Name] == OilPotion //
+//[Name] == ExplodingPotion //
+//[Name] == FulminatingPotion //
+
+
+// =============== ETC ===============
+
+//[Name] == StaminaPotion //
+//[Name] == AntidotePotion //
+//[Name] == ThawingPotion //
+
+
+

@@ -1,0 +1,450 @@
+// ===============================================================================
+// ============================== Charms And Jewels ==============================
+// =============================== Edit by Èò¿©¿ï ================================
+// ===============================================================================
+
+
+// ===============================================================================
+// ==================================== Charm ====================================
+// ===============================================================================
+
+
+// =============== Small ===============
+
+// === Baal Small Charm ===
+//[Name] == SmallCharm && [Quality] == magic && [Level] >= 99 //
+
+// === Life ===
+//[Name] == SmallCharm && [Quality] == magic # [MaxHp] >= 18 //
+[Name] == SmallCharm && [Quality] == magic # [MaxHp] >= 20 //
+//[Name] == SmallCharm && [Quality] == magic # [MaxMana] >= 17 //
+[Name] == SmallCharm && [Quality] == magic # [MaxHp] >= 20 && ([MaxMana] >= 15 || [Tohit] >= 34 || [Defense] >= 30 || [MinDamage] == 1 || [MaxDamage] >= 1) //
+[Name] == SmallCharm && [Quality] == magic # [MaxHp] >= 20 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 16 //
+[Name] == SmallCharm && [Quality] == magic # [MaxHp] >= 15 && [ColdResist] >= 10 //
+[Name] == SmallCharm && [Quality] == magic # [MaxHp] >= 20 && ([FireResist] >= 10 || [LightResist] >= 10 || [ColdResist] >= 10 || [PoisonResist] >= 10) //
+[Name] == SmallCharm && [Quality] == magic # [MaxHp] >= 19 && [Tohit] >= 35 //
+[Name] == SmallCharm && [Quality] == magic # [MaxDamage] == 4 //
+[Name] == SmallCharm && [Quality] == magic # [MaxHp] >= 15 && [MaxDamage] >= 3 //
+[Name] == SmallCharm && [Quality] == magic # [MaxHp] >= 18 && [MaxDamage] >= 2 //
+[Name] == SmallCharm && [Quality] == magic # [MaxHp] >= 10 && [MaxDamage] >= 3 && [Tohit] >= 20 // 
+[Name] == SmallCharm && [Quality] == magic # [MaxHp] >= 15 && ([FireMaxdam] >= 25 || [LightMaxdam] >= 60 || [ColdMaxdam] >= 15) // FireMaxDamage 29, LightMaxDamage 71, ColdMaxDamage 20 
+
+// === Faster Hit Recovery ===
+[Name] == SmallCharm && [Quality] == magic # [FHR] == 5 && ([Defense] >= 30 || [Tohit] == 36 || [MaxDamage] == 3 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+[Name] == SmallCharm && [Quality] == magic # [FHR] == 5 && [MaxMana] >= 17 //
+[Name] == SmallCharm && [Quality] == magic # [FHR] == 5 && ([FireResist] >= 11 || [LightResist] >= 11 || [ColdResist] >= 11 || [PoisonResist] >= 11) //
+[Name] == SmallCharm && [Quality] == magic # [FHR] == 5 && ([FireMaxdam]  >= 29 || [LightMaxdam] >= 71 || [ColdMaxdam] >= 20) // FireMaxDamage 29, LightMaxDamage 71, ColdMaxDamage 20 
+
+// === Faster Run Walk ===
+[Name] == SmallCharm && [Quality] == magic # [FRW] == 3 && ([MaxDamage] >= 3 || [Tohit] == 36 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+//[Name] == SmallCharm && [Quality] == magic # [FRW] == 3 && [MaxMana] >= 17 //
+[Name] == SmallCharm && [Quality] == magic # [FRW] == 3 && ([FireResist] >= 11 || [LightResist] >= 11 || [ColdResist] >= 11 || [PoisonResist] >= 11) //
+[Name] == SmallCharm && [Quality] == magic # [FRW] == 3 && ([FireMaxdam] >= 25 || [LightMaxdam] >= 60 || [ColdMaxdam] >= 15) // FireMaxDamage 29, LightMaxDamage 71, ColdMaxDamage 20
+
+// === Strength ===
+//[Name] == SmallCharm && [Quality] == magic # [Strength] >= 2 //
+[Name] == SmallCharm && [Quality] == magic # [Strength] >= 2 && ([Defense] >= 30 || [Tohit] == 36 || [MaxDamage] == 3 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+//[Name] == SmallCharm && [Quality] == magic # [Strength] >= 2 && [MaxMana] >= 17 //
+[Name] == SmallCharm && [Quality] == magic # [Strength] >= 2 && ([FireResist] >= 11 || [LightResist] >= 11 || [ColdResist] >= 11 || [PoisonResist] >= 11) //
+[Name] == SmallCharm && [Quality] == magic # [Strength] >= 2 && ([FireMaxdam]  >= 29 || [LightMaxdam] >= 71 || [ColdMaxdam] >= 20) // FireMaxDamage 29, LightMaxDamage 71, ColdMaxDamage 20
+
+// === Dexterity ===
+//[Name] == SmallCharm && [Quality] == magic # [Dexterity] >= 2 //
+[Name] == SmallCharm && [Quality] == magic # [Dexterity] >= 2 && ([Defense] >= 30 || [Tohit] == 36 || [MaxDamage] == 3 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+//[Name] == SmallCharm && [Quality] == magic # [Dexterity] >= 2 && [MaxMana] >= 17 //
+[Name] == SmallCharm && [Quality] == magic # [Dexterity] >= 2 && ([FireResist] >= 11 || [LightResist] >= 11 || [ColdResist] >= 11 || [PoisonResist] >= 11) //
+[Name] == SmallCharm && [Quality] == magic # [Dexterity] >= 2 && ([FireMaxdam] >= 29 || [LightMaxdam] >= 71 || [ColdMaxdam] >= 20) // FireMaxDamage 29, LightMaxDamage 71, ColdMaxDamage 20
+
+// === MaxDamage ===
+[Name] == SmallCharm && [Quality] == magic # [MaxDamage] >= 3 && ([ItemMagicBonus] >= 7 || [ItemGoldBonus] >= 10 || [FireMaxdam]  >= 13 || [LightMaxdam] >= 28 || [ColdMaxdam] >= 9) //
+[Name] == SmallCharm && [Quality] == magic # [MaxDamage] >= 2 && [Tohit] >= 20 && [ItemGoldBonus] >= 10 //
+
+// === Gold Chance ===
+[Name] == SmallCharm && [Quality] == magic # [ItemGoldBonus] >= 10 && ([FireResist] >= 10 || [LightResist] >= 10 || [ColdResist] >= 10 || [PoisonResist] >= 10) //
+[Name] == SmallCharm && [Quality] == magic # [ItemGoldBonus] >= 10 && ([MaxMana] >= 15 || [Defense] >= 25 || [Tohit] >= 30) //
+[Name] == SmallCharm && [Quality] == magic # [ItemGoldBonus] >= 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20 //
+[Name] == SmallCharm && [Quality] == magic # [ItemGoldBonus] >= 10 && ([FireMaxdam] >= 29 || [LightMaxdam] >= 71 || [ColdMaxdam] >= 20) // FireMaxDamage 29, LightMaxDamage 71, ColdMaxDamage 20 
+
+// === Magic Chance ===
+[Name] == SmallCharm && [Quality] == magic # [ItemMagicBonus] >= 7 //
+
+// === All Resist ===
+[Name] == SmallCharm && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20 //
+
+// === Poison Damage ===
+//[Name] == SmallCharm && [Quality] == magic # [PoisonMindam] == 205 // PoisonDamage 100
+//[Name] == SmallCharm && [Quality] == magic # [PoisonMindam] == 299 // PoisonDamage 175
+[Name] == SmallCharm && [Quality] == magic # [PoisonMindam] == 291 // PoisonDamage 313
+[Name] == SmallCharm && [Quality] == magic # [PoisonMindam] == 205 && ([MaxDamage] == 1 || [FHR] == 5 || [ItemGoldBonus] >= 5 || [ItemMagicBonus] >= 3 || [MaxHp] >= 5 || [Strength] >= 1) //
+// PoisonDamage 100 MaxDamage 1 over, PoisonDamage 100 FHR 5, PoisonDamage 100 GF 5 over, PoisonDamage 100 MF 3 over, PoisonDamage 100 Life 5 over, PoisonDamage 100 Strength 1 over
+[Name] == SmallCharm && [Quality] == magic # [PoisonMindam] == 205 && ([Dexterity] >= 1 || [FRW] == 3 || [ColdMindam] >= 1 || [FireMindam] >= 1 || [LightMindam] >= 1) // 
+// PoisonDamage 100 Dexterity 1 over, PoisonDamage 100 FRW 3, PoisonDamage 100 MinColdDamage 1 over, PoisonDamage 100 MinFireDamage 1 over, PoisonDamage 100 MinLihgtDamage 1 over
+[Name] == SmallCharm && [Quality] == magic # [PoisonMindam] == 299 && [MaxHp] >= 15 // PoisonDamage 175 Life 15 over
+[Name] == SmallCharm && [Quality] == magic # [PoisonMindam] == 299 && ([FHR] == 5 || [FRW] == 3) // PoisonDamage 175 FHR 5, PoisonDamage 175 FRW 3
+[Name] == SmallCharm && [Quality] == magic # [PoisonMindam] == 299 && ([ItemGoldBonus] == 10 || [ItemMagicBonus] == 7) // PoisonDamage 175 GF 10, PoisonDamage 175 MF 7
+[Name] == SmallCharm && [Quality] == magic # [PoisonMindam] == 299 && ([Strength] == 2 || [Dexterity] == 2 || [MaxDamage] == 1) // PoisonDamage 175 Strength 2, PoisonDamage 175 Dexterity 2, PoisonDamage 175 MaxDamage 1
+[Name] == SmallCharm && [Quality] == magic # [PoisonMindam] == 299 && ([FireMaxdam] >= 13 || [LightMaxdam] >= 28 || [ColdMaxdam] >= 9) // PoisonDamage 175 MaxFireDamage 13, PoisonDamage 175 MaxLightDamage 28, PoisonDamage 175 MaxColdDamage 9 
+[Name] == SmallCharm && [Quality] == magic # [PoisonMindam] >= 300 // 29.16/sec(PoisonDamage 175 Small Charm) over : 281, 330, 377, 451
+
+// === Fire, Lightning, Cold Damage ===
+[Name] == SmallCharm && [Quality] == magic # ([FireMaxdam] >= 35 || [LightMaxdam] >= 80 || [ColdMaxdam] >= 25) // FireMaxDamage 29/13, LightMaxDamage 71/28, ColdMaxDamage 20/9
+
+// === Resist ===
+//[Name] == SmallCharm && [Quality] == magic # [FireResist] >= 11 //
+//[Name] == SmallCharm && [Quality] == magic # [LightResist] >= 11 //
+//[Name] == SmallCharm && [Quality] == magic # [ColdResist] >= 11 //
+//[Name] == SmallCharm && [Quality] == magic # [PoisonResist] >= 11 //
+
+
+// =============== Large ===============
+
+// === Baal Large Charm ===
+//[Name] == LargeCharm && [Quality] == magic && [Level] >= 99 //
+
+// === Poison Damage ===
+//[Name] == LargeCharm && [Quality] == magic # [PoisonMindam] >= 175 //
+
+// === Fire, Lightning, Cold Damage ===
+//[Name] == LargeCharm && [Quality] == magic # ([FireMaxdam] >= 60 || [LightMaxdam] >= 128 || [ColdMaxdam] >= 42) // FireMaxDamage 43/17, LightMaxDamage 90/38, ColdMaxDamage 30/12
+
+// === Gold Chance ===
+[Name] == LargeCharm && [Quality] == magic # [ItemGoldBonus] >= 22 && ([FireResist] >= 15 || [LightResist] >= 15 || [ColdResist] >= 15 || [PoisonResist] >= 15) //
+[Name] == LargeCharm && [Quality] == magic # [ItemGoldBonus] >= 22 && ([MaxDamage] >= 6 || [MaxMana] >= 34  || [Tohit] >= 70) //
+[Name] == LargeCharm && [Quality] == magic # [ItemGoldBonus] >= 22 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 32 //
+[Name] == LargeCharm && [Quality] == magic # [ItemGoldBonus] >= 22 && ([FireMaxdam] >= 43 || [LightMaxdam] >= 90 || [ColdMaxdam] >= 30) // FireMaxDamage 43, LightMaxDamage 90, ColdMaxDamage 30 
+
+// === Life ===
+//[Name] == LargeCharm && [Quality] == magic # [MaxHp] == 35 //
+//[Name] == LargeCharm && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 32 //
+[Name] == LargeCharm && [Quality] == magic # [MaxHp] == 35 && ([MaxMana] >= 34 || [Tohit] >= 77 || [Defense] >= 60 || [MaxDamage] >= 6 || [MinDamage] >= 2) //
+[Name] == LargeCharm && [Quality] == magic # [MaxDamage] >= 8 //
+[Name] == LargeCharm && [Quality] == magic # [MaxHp] == 35 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 32 //
+[Name] == LargeCharm && [Quality] == magic # [MaxHp] == 35 && ([FireResist] >= 15 || [LightResist] >= 15 || [ColdResist] >= 15 || [PoisonResist] >= 15) //
+[Name] == LargeCharm && [Quality] == magic # [MaxHp] == 35 && ([FireMaxdam] >= 43 || [LightMaxdam] >= 90 || [ColdMaxdam] >= 30) // FireMaxDamage 43, LightMaxDamage 90, ColdMaxDamage 30 
+
+// === Faster Hit Recovery ===
+//[Name] == LargeCharm && [Quality] == magic # [FHR] == 8 && [Defense] >= 60 //
+//[Name] == LargeCharm && [Quality] == magic # [FHR] == 8 && [MaxMana] >= 34 //
+//[Name] == LargeCharm && [Quality] == magic # [FHR] == 8 && [Tohit] >= 77 //
+//[Name] == LargeCharm && [Quality] == magic # [FHR] == 8 && [MinDamage] >= 2 //
+[Name] == LargeCharm && [Quality] == magic # [FHR] == 8 && [MaxDamage] >= 6 //
+[Name] == LargeCharm && [Quality] == magic # [FHR] == 8 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 32 //
+[Name] == LargeCharm && [Quality] == magic # [FHR] == 8 && ([FireResist] >= 15 || [LightResist] >= 15 || [ColdResist] >= 15 || [PoisonResist] >= 15) //
+[Name] == LargeCharm && [Quality] == magic # [FHR] == 8 && ([FireMaxdam] >= 43 || [LightMaxdam] >= 90 || [ColdMaxdam] >= 30) // FireMaxDamage 43, LightMaxDamage 90, ColdMaxDamage 30  
+
+// === Faster Run Walk ===
+//[Name] == LargeCharm && [Quality] == magic # [FRW] == 5 && [Defense] >= 60 //
+//[Name] == LargeCharm && [Quality] == magic # [FRW] == 5 && [MaxMana] >= 34 //
+//[Name] == LargeCharm && [Quality] == magic # [FRW] == 5 && [Tohit] >= 77 //
+//[Name] == LargeCharm && [Quality] == magic # [FRW] == 5 && [MinDamage] >= 2 //
+//[Name] == LargeCharm && [Quality] == magic # [FRW] == 5 && ([FireResist] >= 15 || [LightResist] >= 15 || [ColdResist] >= 15 || [PoisonResist] >= 15) //
+[Name] == LargeCharm && [Quality] == magic # [FRW] == 5 && [MaxDamage] >= 6 //
+[Name] == LargeCharm && [Quality] == magic # [FRW] == 5 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 32 //
+[Name] == LargeCharm && [Quality] == magic # [FRW] == 5 && ([FireMaxdam] >= 43 || [LightMaxdam] >= 90 || [ColdMaxdam] >= 30) // FireMaxDamage 43, LightMaxDamage 90, ColdMaxDamage 30  
+
+// === Strength ===
+//[Name] == LargeCharm && [Quality] == magic # [Strength] >= 5 //
+//[Name] == LargeCharm && [Quality] == magic # [Strength] >= 5 && [Defense] >= 60 //
+//[Name] == LargeCharm && [Quality] == magic # [Strength] >= 5 && [MaxMana] >= 34 //
+//[Name] == LargeCharm && [Quality] == magic # [Strength] >= 5 && [Tohit] >= 77 //
+//[Name] == LargeCharm && [Quality] == magic # [Strength] >= 5 && [MinDamage] >= 2 //
+//[Name] == LargeCharm && [Quality] == magic # [Strength] >= 5 && ([FireResist] >= 15 || [LightResist] >= 15 || [ColdResist] >= 15 || [PoisonResist] >= 15) //
+[Name] == LargeCharm && [Quality] == magic # [Strength] >= 5 && [MaxDamage] >= 6 //
+[Name] == LargeCharm && [Quality] == magic # [Strength] >= 5 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 32 //
+[Name] == LargeCharm && [Quality] == magic # [Strength] >= 5 && ([FireMaxdam] >= 43 || [LightMaxdam] >= 90 || [ColdMaxdam] >= 30) // FireMaxDamage 43, LightMaxDamage 90, ColdMaxDamage 30  
+
+// === Dexterity ===
+//[Name] == LargeCharm && [Quality] == magic # [Dexterity] >= 5 //
+//[Name] == LargeCharm && [Quality] == magic # [Dexterity] >= 5 //
+//[Name] == LargeCharm && [Quality] == magic # [Dexterity] >= 5 && [Defense] >= 60 //
+//[Name] == LargeCharm && [Quality] == magic # [Dexterity] >= 5 && [MaxMana] >= 34 //
+//[Name] == LargeCharm && [Quality] == magic # [Dexterity] >= 5 && [Tohit] >= 77 //
+//[Name] == LargeCharm && [Quality] == magic # [Dexterity] >= 5 && [MinDamage] >= 2 //
+//[Name] == LargeCharm && [Quality] == magic # [Dexterity] >= 5 && ([FireResist] >= 15 || [LightResist] >= 15 || [ColdResist] >= 15 || [PoisonResist] >= 15) //
+[Name] == LargeCharm && [Quality] == magic # [Dexterity] >= 5 && [MaxDamage] >= 6 //
+[Name] == LargeCharm && [Quality] == magic # [Dexterity] >= 5 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 32 //
+[Name] == LargeCharm && [Quality] == magic # [Dexterity] >= 5 && ([FireMaxdam] >= 43 || [LightMaxdam] >= 90 || [ColdMaxdam] >= 30) // FireMaxDamage 43, LightMaxDamage 90, ColdMaxDamage 30  
+
+
+// =============== Grand ===============
+
+// === Baal Grand Charm ===
+//[Name] == GrandCharm && [Quality] == magic && [Level] >= 99 //
+
+// === ETC ===
+[Name] == GrandCharm && [Quality] == magic # [Tohit] >= 132 && ([FRW] == 7 || [FHR] == 12 || [Strength] == 6 || [Dexterity] == 6) //
+[Name] == GrandCharm && [Quality] == magic # [Tohit] >= 130 && [MaxHp] >= 40 //
+[Name] == GrandCharm && [Quality] == magic # [MaxHp] >= 45 && ([FireResist] >= 30 || [LightResist] >= 30 || [ColdResist] >= 30 || [PoisonResist] >= 30) //
+[Name] == GrandCharm && [Quality] == magic # [MaxHp] >= 45 && [MaxMana] >= 59 //
+[Name] == GrandCharm && [Quality] == magic # [MaxHp] >= 45 && [Defense] >= 100 //
+[Name] == GrandCharm && [Quality] == magic # [MaxHp] >= 40 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 //
+[Name] == GrandCharm && [Quality] == magic # [MaxHp] >= 45 && [MaxDamage] >= 8 //
+[Name] == GrandCharm && [Quality] == magic # [MaxHp] >= 40 && [MaxDamage] >= 9 //
+[Name] == GrandCharm && [Quality] == magic # [MaxHp] >= 30 && [MaxDamage] >= 10 //
+//[Name] == GrandCharm && [Quality] == magic # [MaxMana] >= 59 && [Strength] == 6 //
+//[Name] == GrandCharm && [Quality] == magic # [MaxMana] >= 59 && [Dexterity] == 6 //
+//[Name] == GrandCharm && [Quality] == magic # [MaxMana] >= 59 && [FHR] == 12 //
+[Name] == GrandCharm && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [Strength] == 6 //
+[Name] == GrandCharm && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [Dexterity] == 6 //
+[Name] == GrandCharm && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [FHR] == 12 //
+[Name] == GrandCharm && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [FRW] == 7 //
+[Name] == GrandCharm && [Quality] == magic # [MaxDamage] >= 10 && [Strength] == 6 //
+[Name] == GrandCharm && [Quality] == magic # [MaxDamage] >= 10 && [Dexterity] == 6 //
+[Name] == GrandCharm && [Quality] == magic # [MaxDamage] >= 10 && [FHR] == 12 //
+[Name] == GrandCharm && [Quality] == magic # [MaxDamage] >= 10 && [FRW] == 7 //
+[Name] == GrandCharm && [Quality] == magic # [MaxDamage] >= 14 //
+
+// === Gold Chance ===
+[Name] == GrandCharm && [Quality] == magic # [ItemGoldBonus] >= 40 && ([FireResist] >= 25 || [LightResist] >= 25 || [ColdResist] >= 25 || [PoisonResist] >= 25) //
+[Name] == GrandCharm && [Quality] == magic # [ItemGoldBonus] >= 40 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40 //
+[Name] == GrandCharm && [Quality] == magic # [ItemGoldBonus] >= 40 && [Defense] >= 90 // 100
+[Name] == GrandCharm && [Quality] == magic # [ItemGoldBonus] >= 40 && [Tohit] >= 120 // 132
+[Name] == GrandCharm && [Quality] == magic # [ItemGoldBonus] >= 40 && [MaxMana] >= 50 // 59
+[Name] == GrandCharm && [Quality] == magic # [ItemGoldBonus] >= 40 && [MaxDamage] >= 8 // 10
+
+// === Skill ===
+[Name] == GrandCharm && [Quality] == magic # [BowandCrossbowSkillTab] == 1 && [MaxHp] >= 40 // bow and crossbow
+//[Name] == GrandCharm && [Quality] == magic # [BowandCrossbowSkillTab] == 1 && [Strength] == 6 // bow and crossbow
+//[Name] == GrandCharm && [Quality] == magic # [BowandCrossbowSkillTab] == 1 && [Dexterity] == 6 // bow and crossbow
+//[Name] == GrandCharm && [Quality] == magic # [BowandCrossbowSkillTab] == 1 && [FRW] == 7 // bow and crossbow
+//[Name] == GrandCharm && [Quality] == magic # [BowandCrossbowSkillTab] == 1 && [FHR] == 12 // bow and crossbow
+
+[Name] == GrandCharm && [Quality] == magic # [PassiveandMagicSkillTab] == 1 && [MaxHp] >= 40 // passive and magic
+//[Name] == GrandCharm && [Quality] == magic # [PassiveandMagicSkillTab] == 1 && [Strength] == 6 // passive and magic
+//[Name] == GrandCharm && [Quality] == magic # [PassiveandMagicSkillTab] == 1 && [Dexterity] == 6 // passive and magic
+//[Name] == GrandCharm && [Quality] == magic # [PassiveandMagicSkillTab] == 1 && [FRW] == 7 // passive and magic
+//[Name] == GrandCharm && [Quality] == magic # [PassiveandMagicSkillTab] == 1 && [FHR] == 12 // passive and magic
+
+//[Name] == GrandCharm && [Quality] == magic # [JavelinandSpearSkillTab] == 1 // javelin and spear
+[Name] == GrandCharm && [Quality] == magic # [JavelinandSpearSkillTab] == 1 && [MaxHp] >= 30 // javelin and spear
+[Name] == GrandCharm && [Quality] == magic # [JavelinandSpearSkillTab] == 1 && [Strength] == 6 // javelin and spear
+[Name] == GrandCharm && [Quality] == magic # [JavelinandSpearSkillTab] == 1 && [Dexterity] == 6 // javelin and spear
+[Name] == GrandCharm && [Quality] == magic # [JavelinandSpearSkillTab] == 1 && [FRW] == 7 // javelin and spear
+[Name] == GrandCharm && [Quality] == magic # [JavelinandSpearSkillTab] == 1 && [FHR] == 12 // javelin and spear
+
+//[Name] == GrandCharm && [Quality] == magic # [FireSkillTab] == 1 // fire
+[Name] == GrandCharm && [Quality] == magic # [FireSkillTab] == 1 && [MaxHp] >= 40 // fire
+//[Name] == GrandCharm && [Quality] == magic # [FireSkillTab] == 1 && [Strength] == 6 // fire
+//[Name] == GrandCharm && [Quality] == magic # [FireSkillTab] == 1 && [Dexterity] == 6 // fire
+//[Name] == GrandCharm && [Quality] == magic # [FireSkillTab] == 1 && [FRW] == 7 // fire
+//[Name] == GrandCharm && [Quality] == magic # [FireSkillTab] == 1 && [FHR] == 12 // fire
+
+[Name] == GrandCharm && [Quality] == magic # [LightningSkillTab] == 1 // lightning
+
+//[Name] == GrandCharm && [Quality] == magic # [ColdSkillTab] == 1 // cold
+[Name] == GrandCharm && [Quality] == magic # [ColdSkillTab] == 1 && [MaxHp] >= 35 // cold
+//[Name] == GrandCharm && [Quality] == magic # [ColdSkillTab] == 1 && [Strength] == 6 // cold
+//[Name] == GrandCharm && [Quality] == magic # [ColdSkillTab] == 1 && [Dexterity] == 6 // cold
+//[Name] == GrandCharm && [Quality] == magic # [ColdSkillTab] == 1 && [FRW] == 7 // cold
+[Name] == GrandCharm && [Quality] == magic # [ColdSkillTab] == 1 && [FHR] == 12 // cold
+
+[Name] == GrandCharm && [Quality] == magic # [CursesSkillTab] == 1 && [MaxHp] >= 40 // curses
+//[Name] == GrandCharm && [Quality] == magic # [CursesSkillTab] == 1 && [Strength] == 6 // curses
+//[Name] == GrandCharm && [Quality] == magic # [CursesSkillTab] == 1 && [Dexterity] == 6 // curses
+//[Name] == GrandCharm && [Quality] == magic # [CursesSkillTab] == 1 && [FRW] == 7 // curses
+//[Name] == GrandCharm && [Quality] == magic # [CursesSkillTab] == 1 && [FHR] == 12 // curses
+
+//[Name] == GrandCharm && [Quality] == magic # [PoisonandBoneSkillTab] == 1 // poison and bone
+[Name] == GrandCharm && [Quality] == magic # [PoisonandBoneSkillTab] == 1 && [MaxHp] >= 30 // poison and bone
+[Name] == GrandCharm && [Quality] == magic # [PoisonandBoneSkillTab] == 1 && [Strength] == 6 // poison and bone
+[Name] == GrandCharm && [Quality] == magic # [PoisonandBoneSkillTab] == 1 && [Dexterity] == 6 // poison and bone
+[Name] == GrandCharm && [Quality] == magic # [PoisonandBoneSkillTab] == 1 && [FRW] == 7 // poison and bone
+[Name] == GrandCharm && [Quality] == magic # [PoisonandBoneSkillTab] == 1 && [FHR] == 12 // poison and bone
+
+//[Name] == GrandCharm && [Quality] == magic # [NecromancerSummoningSkillTab] == 1 // necromancer summoning
+[Name] == GrandCharm && [Quality] == magic # [NecromancerSummoningSkillTab] == 1 && [MaxHp] >= 40 // necromancer summoning
+//[Name] == GrandCharm && [Quality] == magic # [NecromancerSummoningSkillTab] == 1 && [Strength] == 6 // necromancer summoning
+//[Name] == GrandCharm && [Quality] == magic # [NecromancerSummoningSkillTab] == 1 && [Dexterity] == 6 // necromancer summoning
+//[Name] == GrandCharm && [Quality] == magic # [NecromancerSummoningSkillTab] == 1 && [FRW] == 7 // necromancer summoning
+//[Name] == GrandCharm && [Quality] == magic # [NecromancerSummoningSkillTab] == 1 && [FHR] == 12 // necromancer summoning
+
+[Name] == GrandCharm && [Quality] == magic # [PaliCombatSkillTab] == 1 // paladin combat
+
+//[Name] == GrandCharm && [Quality] == magic # [OffensiveAurasSkillTab] == 1 // offensive aura
+[Name] == GrandCharm && [Quality] == magic # [OffensiveAurasSkillTab] == 1 && [MaxHp] >= 40 // offensive aura
+//[Name] == GrandCharm && [Quality] == magic # [OffensiveAurasSkillTab] == 1 && [Strength] == 6 // offensive aura
+//[Name] == GrandCharm && [Quality] == magic # [OffensiveAurasSkillTab] == 1 && [Dexterity] == 6 // offensive aura
+//[Name] == GrandCharm && [Quality] == magic # [OffensiveAurasSkillTab] == 1 && [FRW] == 7 // offensive aura
+//[Name] == GrandCharm && [Quality] == magic # [OffensiveAurasSkillTab] == 1 && [FHR] == 12 // offensive aura
+
+//[Name] == GrandCharm && [Quality] == magic # [DefensiveAurasSkillTab] == 1 // defensive aura
+[Name] == GrandCharm && [Quality] == magic # [DefensiveAurasSkillTab] == 1 && [MaxHp] >= 40 // defensive aura
+//[Name] == GrandCharm && [Quality] == magic # [DefensiveAurasSkillTab] == 1 && [Strength] == 6 // defensive aura
+//[Name] == GrandCharm && [Quality] == magic # [DefensiveAurasSkillTab] == 1 && [Dexterity] == 6 // defensive aura
+//[Name] == GrandCharm && [Quality] == magic # [DefensiveAurasSkillTab] == 1 && [FRW] == 7 // defensive aura
+//[Name] == GrandCharm && [Quality] == magic # [DefensiveAurasSkillTab] == 1 && [FHR] == 12 // defensive aura
+
+[Name] == GrandCharm && [Quality] == magic # [BarbCombatSkillTab] == 1 && [MaxHp] >= 40 // barbarian combat
+//[Name] == GrandCharm && [Quality] == magic # [BarbCombatSkillTab] == 1 && [Strength] == 6 // barbarian combat
+//[Name] == GrandCharm && [Quality] == magic # [BarbCombatSkillTab] == 1 && [Dexterity] == 6 // barbarian combat
+//[Name] == GrandCharm && [Quality] == magic # [BarbCombatSkillTab] == 1 && [FRW] == 7 // barbarian combat
+//[Name] == GrandCharm && [Quality] == magic # [BarbCombatSkillTab] == 1 && [FHR] == 12 // barbarian combat
+
+[Name] == GrandCharm && [Quality] == magic # [MasteriesSkillTab] == 1 && [MaxHp] >= 40 // masteries
+
+//[Name] == GrandCharm && [Quality] == magic # [WarcriesSkillTab] == 1 // warcries
+[Name] == GrandCharm && [Quality] == magic # [WarcriesSkillTab] == 1 && [ItemGoldBonus] >= 39 // warcries
+[Name] == GrandCharm && [Quality] == magic # [WarcriesSkillTab] == 1 && [MaxHp] >= 35 // warcries
+[Name] == GrandCharm && [Quality] == magic # [WarcriesSkillTab] == 1 && [Strength] == 6 // warcries
+[Name] == GrandCharm && [Quality] == magic # [WarcriesSkillTab] == 1 && [Dexterity] == 6 // warcries
+[Name] == GrandCharm && [Quality] == magic # [WarcriesSkillTab] == 1 && [FRW] == 7 // warcries
+[Name] == GrandCharm && [Quality] == magic # [WarcriesSkillTab] == 1 && [FHR] == 12 // warcries
+
+[Name] == GrandCharm && [Quality] == magic # [DruidSummoningSkillTab] == 1 && [MaxHp] >= 40 // druid summoning
+//[Name] == GrandCharm && [Quality] == magic # [DruidSummoningSkillTab] == 1 && [FHR] == 12 // druid summoning
+
+[Name] == GrandCharm && [Quality] == magic # [ShapeshiftingSkillTab] == 1 && [MaxHp] >= 40 // shape shifting
+//[Name] == GrandCharm && [Quality] == magic # [ShapeshiftingSkillTab] == 1 && [Strength] == 6 // shape shifting
+//[Name] == GrandCharm && [Quality] == magic # [ShapeshiftingSkillTab] == 1 && [Dexterity] == 6 // shape shifting
+[Name] == GrandCharm && [Quality] == magic # [ShapeshiftingSkillTab] == 1 && [FRW] == 7 // shape shifting
+[Name] == GrandCharm && [Quality] == magic # [ShapeshiftingSkillTab] == 1 && [FHR] == 12 // shape shifting
+
+//[Name] == GrandCharm && [Quality] == magic # [ElementalSkillTab] == 1 // elemental
+[Name] == GrandCharm && [Quality] == magic # [ElementalSkillTab] == 1 && [MaxHp] >= 35 // elemental
+[Name] == GrandCharm && [Quality] == magic # [ElementalSkillTab] == 1 && [Strength] == 6 // elemental
+[Name] == GrandCharm && [Quality] == magic # [ElementalSkillTab] == 1 && [Dexterity] == 6 // elemental
+//[Name] == GrandCharm && [Quality] == magic # [ElementalSkillTab] == 1 && [FRW] == 7 // elemental
+[Name] == GrandCharm && [Quality] == magic # [ElementalSkillTab] == 1 && [FHR] == 12 // elemental
+
+//[Name] == GrandCharm && [Quality] == magic # [TrapsSkillTab] == 1 // trap
+[Name] == GrandCharm && [Quality] == magic # [TrapsSkillTab] == 1 && [MaxHp] >= 35 // trap
+[Name] == GrandCharm && [Quality] == magic # [TrapsSkillTab] == 1 && [Strength] == 6 // trap
+[Name] == GrandCharm && [Quality] == magic # [TrapsSkillTab] == 1 && [Dexterity] == 6 // trap
+[Name] == GrandCharm && [Quality] == magic # [TrapsSkillTab] == 1 && [FRW] == 7 // trap
+[Name] == GrandCharm && [Quality] == magic # [TrapsSkillTab] == 1 && [FHR] == 12 // trap
+
+//[Name] == GrandCharm && [Quality] == magic # [ShadowdisciplinesSkillTab] == 1 // shadow disciplines
+[Name] == GrandCharm && [Quality] == magic # [ShadowdisciplinesSkillTab] == 1 && [MaxHp] >= 40 // shadow disciplines
+//[Name] == GrandCharm && [Quality] == magic # [ShadowdisciplinesSkillTab] == 1 && [Strength] == 6 // shadow disciplines
+//[Name] == GrandCharm && [Quality] == magic # [ShadowdisciplinesSkillTab] == 1 && [Dexterity] == 6 // shadow disciplines
+//[Name] == GrandCharm && [Quality] == magic # [ShadowdisciplinesSkillTab] == 1 && [FRW] == 7 // shadow disciplines
+[Name] == GrandCharm && [Quality] == magic # [ShadowdisciplinesSkillTab] == 1 && [FHR] == 12 // shadow disciplines
+
+//[Name] == GrandCharm && [Quality] == magic # [MartialartsSkillTab] == 1 // martial arts
+[Name] == GrandCharm && [Quality] == magic # [MartialartsSkillTab] == 1 && [MaxHp] >= 40 // martial arts
+//[Name] == GrandCharm && [Quality] == magic # [MartialartsSkillTab] == 1 && [Strength] == 6 // martial arts
+//[Name] == GrandCharm && [Quality] == magic # [MartialartsSkillTab] == 1 && [Dexterity] == 6 // martial arts
+//[Name] == GrandCharm && [Quality] == magic # [MartialartsSkillTab] == 1 && [FRW] == 7 // martial arts
+//[Name] == GrandCharm && [Quality] == magic # [MartialartsSkillTab] == 1 && [FHR] == 12 // martial arts
+
+
+// =============== Unique ===============
+
+// === Small ===
+[Name] == SmallCharm && [Quality] == unique //
+
+// === Large ===
+[Name] == LargeCharm && [Quality] == unique //
+
+// === Grand ===
+//[Name] == GrandCharm && [Quality] == Unique # [ItemGoldBonus] >= 160 //
+[Name] == GrandCharm && [Quality] == unique # [ItemMagicBonus] >= 40 && ([ItemReducedPrices] >= 15 || [ItemGoldBonus] >= 160) //
+[Name] == GrandCharm && [Quality] == unique # [ItemReducedPrices] >= 15 && [ItemGoldBonus] >= 160 //
+
+
+
+// ===============================================================================
+// ==================================== Jewel ====================================
+// ===============================================================================
+
+
+// =============== Magic ===============
+
+// ==== Unidentified ====
+//[Name] == jewel && [Quality] == magic && [Level] >= 80 //
+
+// ==== Requirements ====
+//[Name] == jewel && Quality >= magic # [ItemReqPercent] == -15 //
+
+// === Enhanced Damage ===
+//[Type] == jewel && [Quality] == magic # [EnhancedDamage] == 40 //
+[Type] == jewel && [Quality] == magic # [MaxDamage] >= 30 //
+[Type] == jewel && [Quality] == magic # [MinDamage] >= 18 //
+[Type] == jewel && [Quality] == magic # [MinDamage] >= 8 && [MaxDamage] >= 15 //
+[Type] == jewel && [Quality] == magic # [EnhancedDamage] >= 35 && [IAS] == 15 //
+[Type] == jewel && [Quality] == magic # [EnhancedDamage] == 40 && ([ItemGoldBonus] >= 30 || [ItemMagicBonus] >= 10 || [FHR] >= 7 || [ItemReqPercent] == -15 || [Strength] >= 9) //
+[Type] == jewel && [Quality] == magic # [EnhancedDamage] == 40 && ([Dexterity] >= 9 || [MinDamage] == 10 || [MaxDamage] == 15 || [FireMaxdam] >= 50 || [LightMaxdam] >= 100 || [ColdMaxdam] >= 15) // 
+
+// === Resist ===
+[Type] == jewel && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 //
+[Type] == jewel && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [IAS] == 15 //
+[Type] == jewel && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [FHR] >= 7 //
+[Type] == jewel && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [ItemReqPercent] == -15 //
+[Type] == jewel && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [Strength] >= 9 //
+[Type] == jewel && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [Dexterity] >= 9 //
+[Type] == jewel && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [MinDamage] >= 10//
+[Type] == jewel && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [MaxDamage] == 15 //
+[Type] == jewel && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [FireMaxdam] >= 50 //
+[Type] == jewel && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [LightMaxdam] >= 100 //
+[Type] == jewel && [Quality] == magic # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [ColdMaxdam] >= 15 //
+[Type] == jewel && [Quality] == magic # ([FireResist] >= 30 || [LightResist] >= 30 || [ColdResist] >= 30 || [PoisonResist] >= 30) && ([Strength] >= 9 || [Dexterity] >= 9 || [ItemReqPercent] == -15 || [FHR] >= 7) //
+
+// === Attack Rating ===
+[Type] == jewel && [Quality] == magic # [Tohit] >= 100 && ([Strength] >= 9 || [Dexterity] >= 9 || [ItemReqPercent] == -15 || [FHR] >= 7 || [MinDamage] >= 10 || [MaxDamage] == 15 || [ItemGoldBonus] >= 30 || [ItemMagicBonus] >= 10) //
+
+// === Increased Attack Speed ===
+//[Type] == jewel && [Quality] == magic # [IAS] == 15 //
+[Type] == jewel && [Quality] == magic # [IAS] == 15 && ([FireResist] >= 30 || [LightResist] >= 30 || [ColdResist] >= 30 || [PoisonResist] >= 30) //
+[Type] == jewel && [Quality] == magic # [IAS] == 15 && ([MinDamage] >= 8 || [MaxDamage] == 15 || [Tohit] >= 100) //
+
+// === Life ===
+[Type] == jewel && [Quality] == magic # [MaxHp] >= 20 && ([EnhancedDamage] == 40 || [MaxDamage] == 15 || [MinDamage] >= 8 || [Tohit] >= 100 || [Defense] >= 64 || [ItemDamagetoMana] >= 12 || [ItemMagicBonus] == 7) //
+[Type] == jewel && [Quality] == magic # [MaxHp] >= 20 && ([MaxMana] == 20 || [FireResist] >= 30 || [LightResist] >= 30 || [ColdResist] >= 30 || [PoisonResist] >= 30 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60) // 
+
+// ==== Gold Chance ====
+[Type] == jewel && [Quality] == magic # [ItemGoldBonus] >= 30 && ([FireResist] >= 30 || [LightResist] >= 30 || [ColdResist] >= 30 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60) //
+[Type] == jewel && [Quality] == magic # [ItemGoldBonus] >= 30 && ([ItemDamagetoMana] >= 12 || [Tohit] >= 100 || [EnhancedDamage] == 40 || [MaxDamage] >= 15 || [Defense] >= 64) //
+
+
+// =============== Rare ===============
+
+// === Enhanced Damage ====
+[Type] == jewel && [Quality] == rare # [MinDamage] >= 15 && [MaxDamage] >= 15 //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && [Strength] >= 9 && [Dexterity] >= 9 //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && ([Strength] >= 9 || [Dexterity] >= 9) && ([ItemMagicBonus] >= 15 || [ItemGoldBonus] >= 30) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && [FHR] >= 7 && ([Strength] >= 9 || [Dexterity] >= 9 || [FireMaxdam] >= 50 || [Defense] >= 40 || [ItemMagicBonus] >= 15 || [ItemGoldBonus] >= 30) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && [Tohit] >= 60 && ([FireMaxdam] >= 50 || [LightMaxdam] >= 100 || [FHR] >= 7 || [Defense] >= 40 || [ItemMagicBonus] >= 15 || [ItemGoldBonus] >= 30) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && [LightMaxdam] >= 100 && ([Defense] >= 40 || [FireMaxdam] >= 50 || [FHR] >= 7 || [ItemMagicBonus] >= 15 || [ItemGoldBonus] >= 30 || [Strength] >= 9 || [Dexterity] >= 9) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && [FireMaxdam] >= 50 && ([Strength] >= 9 || [Dexterity] >= 9 || [ItemMagicBonus] >= 15 || [ItemGoldBonus] >= 30) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && [Defense] >= 40 && ([Strength] >= 9 || [Dexterity] >= 9 || [ItemMagicBonus] >= 15 || [ItemGoldBonus] >= 30) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && (([MinDamage] >= 15 && [MaxDamage] >= 9) || ([MinDamage] >= 8 && [MaxDamage] >= 15)) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && [MinDamage] >= 8 && [MaxDamage] >= 9 && ([Strength] >= 9 || [Dexterity] >= 9 || [FHR] >= 7 || [Tohit] >= 60 || [FireMaxdam] >= 50) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && [MinDamage] >= 8 && [MaxDamage] >= 9 && ([LightMaxdam] >= 100 || [Defense] >= 40 || [ItemReqPercent] == -15 || [ItemMagicBonus] >= 15 || [ItemGoldBonus] >= 30) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && ([MinDamage] >= 15 || [MaxDamage] >= 15) && ([Strength] >= 9 || [Dexterity] >= 9 || [FHR] >= 7 || [Tohit] >= 60 || [FireMaxdam] >= 50) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && ([MinDamage] >= 15 || [MaxDamage] >= 15) && ([LightMaxdam] >= 100 || [Defense] >= 40 || [ItemMagicBonus] >= 15 || [ItemGoldBonus] >= 30) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && [ItemReqPercent] == -15 && ([Strength] >= 9 || [Dexterity] >= 9 || [Defense] >= 40 || [FireMaxdam] >= 50 || [LightMaxdam] >= 100 || [Tohit] >= 60) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && [ItemReqPercent] == -15 && ([MinDamage] >= 18 || [MaxDamage] >= 18 || ([MinDamage] >= 8 && [MaxDamage] >= 9) || [FHR] >= 7 || [ItemMagicBonus] >= 15 || [ItemGoldBonus] >= 30) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && [ItemDamagetoMana] >= 12 && ([Strength] >= 9 || [Dexterity] >= 9 || [Defense] >= 40 || [FireMaxdam] >= 50 || [LightMaxdam] >= 100 || [Tohit] >= 60) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && [ItemDamagetoMana] >= 12 && ([MinDamage] >= 18 || [MaxDamage] >= 18 || ([MinDamage] >= 8 && [MaxDamage] >= 9) || [FHR] >= 7 || [ItemMagicBonus] >= 15 || [ItemGoldBonus] >= 30) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && ([FireResist] >= 30 || [LightResist] >= 30 || [ColdResist] >= 30 || [PoisonResist] >= 30) && ([Strength] >= 9 || [Dexterity] >= 9 || [Defense] >= 40 || [FireMaxdam] >= 50 || [LightMaxdam] >= 100 || [Tohit] >= 60) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && ([FireResist] >= 30 || [LightResist] >= 30 || [ColdResist] >= 30 || [PoisonResist] >= 30) && ([MinDamage] >= 18 || [MaxDamage] >= 18 || ([MinDamage] >= 8 && [MaxDamage] >= 9) || [FHR] >= 7 || [ItemMagicBonus] >= 15 || [ItemGoldBonus] >= 30) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && ([FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40) && ([Strength] >= 9 || [Dexterity] >= 9 || [Defense] >= 40 || [FireMaxdam] >= 50 || [LightMaxdam] >= 100 || [Tohit] >= 60) //
+[Type] == jewel && [Quality] == rare # [EnhancedDamage] == 30 && ([FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40) && ([MinDamage] >= 18 || [MaxDamage] >= 18 || ([MinDamage] >= 8 && [MaxDamage] >= 9) || [FHR] >= 7 || [ItemMagicBonus] >= 15 || [ItemGoldBonus] >= 30) //
+
+// === Resist ====
+[Type] == jewel && [Quality] == rare # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 70 //
+[Type] == jewel && [Quality] == rare # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40 && [Strength] >= 9 && [Dexterity] >= 9 //
+[Type] == jewel && [Quality] == rare # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40 && ([Strength] >= 9 || [Dexterity] >= 9) && ([FHR] >= 7 || [ItemReqPercent] == -15 || [ItemDamagetoMana] >= 12) //
+[Type] == jewel && [Quality] == rare # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40 && ([Strength] >= 9 || [Dexterity] >= 9) && ([ItemGoldBonus] >= 30 || [ItemMagicBonus] >= 15 || [ItemDamagetoMana] >= 12) //
+[Type] == jewel && [Quality] == rare # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40 && [ItemDamagetoMana] >= 12 && ([FHR] >= 7 || [ItemReqPercent] == -15) //
+[Type] == jewel && [Quality] == rare # [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40 && ([ItemGoldBonus] >= 30 || [ItemMagicBonus] >= 15) && ([ItemReqPercent] == -15 || [FHR] >= 7) //
+[Type] == jewel && [Quality] == rare # ([FireResist] >= 30 || [LightResist] >= 30 || [ColdResist] >= 30 || [PoisonResist] >= 30) && ([ItemGoldBonus] >= 30 || [ItemMagicBonus] >= 15 || [ItemDamagetoMana] >= 12 || [FHR] >= 7 || [ItemReqPercent] == -15) && ([Strength] >= 9 || [Dexterity] >= 9) //
+[Type] == jewel && [Quality] == rare # ([ItemReqPercent] == -15 || [FHR] >= 7 || [Strength] >= 9 || [Dexterity] >= 9) && ([FireResist] >= 30 || [LightResist] >= 30 || [ColdResist] >= 30 || [PoisonResist] >= 30) //
+[Type] == jewel && [Quality] == rare # [Strength] >= 9 && [Dexterity] >= 9 && ([FireResist] >= 30 || [LightResist] >= 30 || [ColdResist] >= 30 || [PoisonResist] >= 30) //
+
+// ==== Magic / Gold ====
+[Type] == jewel && [Quality] == rare # [ItemGoldBonus] >= 30 && ([ItemMagicBonus] >= 17 || [Strength] >= 9 || [Dexterity] >= 9 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40 || [MinDamage] >= 8) //
+[Type] == jewel && [Quality] == rare # [ItemGoldBonus] >= 30 && ([FireResist] >= 30 || [LightResist] >= 30 || [ColdResist] >= 30 || [PoisonResist] >= 30 || [ItemDamagetoMana] >= 12 || [EnhancedDamage] == 30) //
+
+// ==== ETC ====
+[Type] == jewel && [Quality] == rare # [Strength] >= 9 && [Dexterity] >= 9 && ([ItemReqPercent] == -15 || [ItemDamagetoMana] >= 12 || [ItemMagicBonus] >= 17 || [FireMaxdam] >= 50 || [LightMaxdam] >= 100) //
+[Type] == jewel && [Quality] == rare # [Strength] >= 9 && [Dexterity] >= 9 && ([MinDamage] >= 15 || [MaxDamage] >= 15 || [Defense] >= 40 || [Tohit] >= 60 || [FHR] >= 7) //
+
+
+// =============== Unique ===============
+
+//[Type] == jewel && [Quality] == Unique //
+[Type] == jewel && [Quality] == Unique # [PassiveFireMastery] >= 5 && [PassiveFirePierce] >= 5 // Fire
+[Type] == jewel && [Quality] == Unique # [passiveLtngMastery] >= 5 && [PassiveLtngPierce] >= 5 // Lihgtning
+[Type] == jewel && [Quality] == Unique # [passiveColdMastery] >= 5 && [PassiveColdPierce] >= 5 // Cold
+[Type] == jewel && [Quality] == Unique # [passivePoisMastery] >= 5 && [PassivePoisPierce] >= 5 // Poison

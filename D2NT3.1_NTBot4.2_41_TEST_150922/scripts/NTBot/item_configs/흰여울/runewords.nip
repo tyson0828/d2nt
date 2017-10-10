@@ -1,0 +1,115 @@
+// ===============================================================================
+// ================================== RuneWord ===================================
+// =============================== Edit by Èò¿©¿ï ================================
+// ===============================================================================
+
+
+// ===============================================================================
+// =================================== Weapon ====================================
+// ===============================================================================
+
+
+// =============== Heart of the Oak ===============
+
+[Name] == Flail && [Quality] <= superior # [FireResist] >= 40 //
+[Name] == Scourge && [Quality] <= superior # [FireResist] >= 40 //
+
+
+// =============== Crescent Moon ===============
+
+[Type] == Axe && [Quality] == superior # [EnhancedDamage] == 235 && [MagicDamageReduction] == 11 //
+[Type] == Sword && [Quality] == superior # [EnhancedDamage] == 235 && [MagicDamageReduction] == 11 //
+[Type] == Polearm && [Quality] == superior # [EnhancedDamage] == 235 && [MagicDamageReduction] == 11 //
+
+
+// =============== Passion ===============
+
+[Name] == BerserkerAxe && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 225 //
+[Name] == ColossusBlade && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 225 //
+[Name] == ColossusSword && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 225 //
+[Name] == BalrogBlade && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 225 //
+
+
+// =============== Death ===============
+
+[Name] == BerserkerAxe && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 400 && [ManaLeech] == 7 //
+[Name] == WarSpike && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 400 && [ManaLeech] == 7 //
+[Name] == ColossusBlade && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 400 && [ManaLeech] == 7 //
+[Name] == ColossusSword && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 400 && [ManaLeech] == 7 //
+
+
+// =============== Oath ===============
+
+[Name] == CrypticSword && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 355 && [IAS] == 50 //
+[Name] == ConquestSword && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 355 && [IAS] == 50 //
+[Name] == HighlandBlade && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 355 && [IAS] == 50 //
+[Name] == SmallCrescent && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 355 && [IAS] == 50 //
+[Name] == BalrogBlade && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 355 && [IAS] == 50 //
+[Name] == ColossusBlade && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 355 && [IAS] == 50 //
+[Name] == ColossusSword && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 355 && [IAS] == 50 //
+[Name] == BerserkerAxe && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 355 && [IAS] == 50 //
+[Name] == WarSpike && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 355 && [IAS] == 50 //
+
+
+// =============== Obedience ===============
+
+[Name] == Thresher && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 385 && [PlusDefense] >= 300 //
+[Name] == CrypticAxe && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 385 && [PlusDefense] >= 300 //
+[Name] == GiantThresher && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 385 && [PlusDefense] >= 300 //
+[Name] == GreatPoleaxe && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 385 && [PlusDefense] >= 300 //
+
+
+// =============== Insight ===============
+
+//[Name] == ColossusVoulge && [Quality] <= superior && [Flag] == ethereal # [SkillMeditation] >= 17 //
+[Name] == Thresher && [Quality] <= superior && [Flag] == ethereal # [SkillMeditation] >= 17 //
+[Name] == CrypticAxe && [Quality] <= superior && [Flag] == ethereal # [SkillMeditation] >= 17 //
+[Name] == GiantThresher && [Quality] <= superior && [Flag] == ethereal # [SkillMeditation] >= 17 //
+[Name] == GreatPoleaxe && [Quality] <= superior && [Flag] == ethereal # [SkillMeditation] >= 17 //
+
+[Name] == Scythe && [Quality] <= normal && [Flag] != ethereal # [SkillMeditation] >= 17 //
+[Name] == Voulge && [Quality] <= normal && [Flag] != ethereal # [SkillMeditation] >= 17 //
+
+
+
+// ===============================================================================
+// ==================================== Armor ====================================
+// ===============================================================================
+
+
+// =============== Stone ===============
+
+[Name] == SacredArmor && [Quality] == normal && [Flag] == ethereal # [EnhancedDefense] == 290 //
+
+
+// =============== Duress ===============
+
+[Name] == SacredArmor && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 200 && [EnhancedDamage] == 20 //
+
+
+// =============== Prudence ===============
+
+[Name] == SacredArmor && [Quality] == normal && [Flag] == ethereal # [EnhancedDefense] == 170 && [FireResist] == 35 //
+
+
+// =============== Sanctuary ===============
+
+//[Type] == auricshields && [Class] == normal && [Quality] <= superior # [FireResist] >= 115 //
+//[Type] == auricshields && [Class] == exceptional && [Quality] <= superior # [FireResist] >= 115 //
+[Type] == auricshields && [Class] == elite && [Quality] <= superior # [FireResist] >= 115 //
+
+
+// =============== Spirit ===============
+
+//[Type] == auricshields && [Class] == normal && [Quality] <= superior # [FCR] >= 35 //
+//[Type] == auricshields && [Class] == exceptional && [Quality] <= superior # [FCR] >= 35 //
+//[Type] == auricshields && [Class] == elite && [Quality] <= superior && [Flag] != ethereal # [FCR] >= 35 && [MaxMana] == 112 && [MagicDamageReduction] == 8 //
+[Type] == auricshields && [Class] == elite && [Quality] <= superior && [Flag] != ethereal # [FCR] >= 35 //
+//[Name] == SacredTarge && [Class] == elite && [Quality] <= superior && [Flag] != ethereal # [FCR] >= 35 //
+//[Name] == SacredRondache && [Class] == elite && [Quality] <= superior && [Flag] != ethereal # [FCR] >= 35 //
+//[Name] == KurastShield && [Class] == elite && [Quality] <= superior && [Flag] != ethereal # [FCR] >= 35 //
+//[Name] == ZakarumShield && [Class] == elite && [Quality] <= superior && [Flag] != ethereal # [FCR] >= 35 //
+//[Name] == VortexShield && [Class] == elite && [Quality] <= superior && [Flag] != ethereal # [FCR] >= 35 //
+
+//[Name] == Monarch && [Quality] <= superior # [FCR] >= 35 && [MaxMana] == 112 && [MagicDamageReduction] == 8 //
+[Name] == Monarch && [Quality] <= superior # [FCR] >= 35 //

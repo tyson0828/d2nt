@@ -1,0 +1,13 @@
+// 포션 이니
+// 공식 홈페이지 : 디시인사이드 디아블로 갤러리 - http://gall.dcinside.com/list.php?id=diablo
+// 옵션의 종류는 scripts/libs/common/NTItemAlias.ntl 파일에 나와 있습니다. 참고 바랍니다.
+
+
+
+
+// ############### 포션 ###############
+[Name] == SuperHealingPotion // 초대량의 힐링포션
+
+[Name] == SuperManaPotion // 초대량의 마나포션
+
+[Name] == FullRejuvenationPotion // 초대량의 활력포션

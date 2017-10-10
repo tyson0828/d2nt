@@ -1,0 +1,77 @@
+// =============== Orphan's Call ===============
+//[Name] == WingedHelm && [Quality] == set // Guillaume's Face
+
+
+// =============== Bul Kathos' Children ===============
+
+//[Name] == MythicalSword && [Quality] == set // Bul-Kathos' Tribal Guardian
+
+
+// =============== Griswold's Legacy ===============
+
+//[Name] == Corona && [Quality] == set # [EnhancedDefense] >= 75 // Griswold's Valor
+//[Name] == Corona && [Quality] == set # [ItemMagicBonus] >= 30 // Griswold's Valor
+[Name] == Corona && [Quality] == set # [EnhancedDefense] >= 75 && [ItemMagicBonus] >= 30 // Griswold's Valor
+[Name] == Caduceus && [Quality] == set # [Sockets] >= 4 && [EnhancedDamage] >= 240 // Griswold's Redemption
+//[Name] == VortexShield && [Quality] == set // Griswold's Honor
+[Name] == VortexShield && [Quality] == set # [Defense] >= 333 // Griswold's Honor
+//[Name] == OrnatePlate && [Quality] == set && [Level] >= 99 # [Defense] >= 950 // Griswold's Heart
+
+
+// =============== Immortal King ===============
+
+//[Name] == SacredArmor && [Quality] == Set && [Level] >= 99 // Immortal King's Soul Cage
+[Name] == AvengerGuard && [Quality] == set # [Defense] >= 175 && [ItemMagicBonus] >= 40 // Immortal King's Will
+//[Name] == OgreMaul && [Quality] == set # [ItemCrushingBlow] >= 40 // Immortal King's Stone Crusher
+//[Name] == WarBelt && [Quality] == set // Immortal King's Detail
+//[Name] == WarGauntlets && [Quality] == set # [Defense] >= 118 // Immortal King's Forge
+//[Name] == WarBoots && [Quality] == set # [Defense] >= 128 // Immortal King's Pillar
+
+
+// =============== M'avina's Battle Hymn ===============
+
+//[Name] == Diadem && [Quality] == set # [Defense] >= 210 // M'avina's True Sight
+//[Name] == GrandMatronBow && [Quality] == set // M'avina's Caster
+//[Name] == KrakenShell && [Quality] == Set # [MagicDamageReduction] >= 12 // M'avina's Embrace
+//[Name] == BattleGauntlets && [Quality] == set # [Strength] ==10 && [Defense] == 97 // M'avina's Icy Clutch
+
+
+// =============== Natalya's Odium ===============
+
+//[Name] == ScissorsSuwayyah && [Quality] == set // Natalya's Mark
+//[Name] == LoricatedMail && [Quality] == set # [Sockets] == 3 && [Defense] >= 721 // Natalya's Shadow
+[Name] == GrimHelm && [Quality] == set # [Strength] >= 20 && [Dexterity] >= 30 && [Defense] >= 300 && [FireResist] >= 20 // Natalya's Totem
+[Name] == MeshBoots && [Quality] == set # [ColdResist] >= 25 && [LightResist] >= 25 && [Defense] >= 169 // Natalya's Soul
+
+
+// =============== Tal Rasha's Wrappings ===============
+
+[Name] == LacqueredPlate && [Quality] == Set # [Defense] >= 940 // Tal Rasha's Guardianship
+//[Name] == amulet && [Quality] == Set # [SorceressSkills] == 2 // Tal Rasha's Adjucation
+//[Name] == MeshBelt && [Quality] == Set // Tal Rasha's Fine-spun Cloth
+//[Name] == MeshBelt && [Quality] == Set # [ItemMagicBonus] >= 15 && [Defense] >= 40 // Tal Rasha's Fine-spun Cloth
+//[Name] == SwirlingCrystal && [Quality] == Set // Tal Rasha's Lidless Eye
+//[Name] == SwirlingCrystal && [Quality] == Set # [SkillFireMastery] == 2 && [SkillLightningMastery] == 2 && [SkillColdMastery] ==  2 // Tal Rasha's Lidless Eye
+//[Name] == SwirlingCrystal && [Quality] == Set # [SkillFireMastery] == 2 && [SkillLightningMastery] >= 1 && [SkillColdMastery] ==  2 // Tal Rasha's Lidless Eye
+//[Name] == DeathMask && [Quality] == Set # [Defense] >= 131 // Tal Rasha's Horadric Crest
+
+
+// =============== Trang-Oul's Avatar ===============
+
+//[Name] == CantorTrophy && [Quality] == Set # [Defense] >= 189 && [FireResist] >= 45 // Trang-Oul's Wing
+//[Name] == TrollBelt && [Quality] == Set # [Defense] >= 166 && [MaxMana] >= 50 // Trang-Oul's Girth
+//[Name] == BoneVisage && [Quality] == Set # [Defense] >= 257 // Trang-Oul's Guise
+//[Name] == ChaosArmor && [Quality] == Set // Trang-Oul's Scales
+//[Name] == HeavyBracers && [Quality] == Set // Trang-Oul's Claws
+//[Name] == HeavyBracers && [Quality] == Set # [Defense] >= 74 // Trang-Oul's Claws
+
+
+// =============== Small ===============
+// === 알더의 어드벤스 ===
+//[Name] == Battle Boots && [Quality] == Set # [Defense] >= 47 && [FireResist] >= 50 // Aldur's Advance
+
+
+// =============== Angelic Raiment ===============
+
+//[Name] == amulet && [Quality] = Set && [Level] >= 99 # [ItemLightRadius] == 3 && [ItemDamageToMana] == 20 // Angelic Wings
+//[Name] == ring && [Quality] = Set && [Level] >= 99 # [MaxHP] == 20 // Angelic Halo
