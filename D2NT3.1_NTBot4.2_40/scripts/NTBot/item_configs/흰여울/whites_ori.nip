@@ -1,0 +1,86 @@
+// ===============================================================================
+// ==================================== White ====================================
+// ================================= Edit by Man =================================
+// ===============================================================================
+
+
+// ===============================================================================
+// ==================================== Weapon ====================================
+// ===============================================================================
+
+
+// =============== Enchant Sorceress Item ===============
+
+//[Name] == Cap && [quality] <= superior # [Sockets] == 2 //
+//[Name] == Mask && [quality] <= superior # [Sockets] == 3 //
+//[Name] == Hunter'sBow && [quality] <= superior # [Sockets] == 4 //
+[Name] == Hunter'sBow && [quality] == superior # [Sockets] == 4 && [MaxDamage] == 1 && [Tohit] == 3 //
+
+//[Name] == ChippedAmethyst // bow 4
+//[Name] == ChippedDiamond // helm 1
+//[Name] == ChippedEmerald // helm 1, helm 3
+//[Name] == FlawlessAmethyst // helm 2
+
+
+// =============== Socket Helm ===============
+
+[Name] == WarHat && [Quality] == superior # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [Sockets] == 2 //
+[Name] == GrimHelm && [Quality] == superior # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [Sockets] == 2 //
+[Name] == DeathMask && [Quality] == superior # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [Sockets] == 3 //
+[Name] == Mask && [Quality] == superior # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [Sockets] == 3 //
+[Name] == GrandCrown && [Quality] == superior # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [Sockets] == 3 //
+[Name] == WingedHelm && [Quality] == superior # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [Sockets] == 3 //
+
+
+// =============== Call To Arms ===============
+
+//[Name] == CrystalSword && [quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+//[Name] == CrystalSword && [quality] == normal # [Sockets] == 5 //
+//[Name] == CrystalSword && [quality] == superior # [EnhancedDamage] >= 15 && [Sockets] == 5 //
+
+
+// =============== Heart of the Oak ===============
+
+//[Name] == Flail && [quality] == normal # [Sockets] == 4 //
+[Name] == Flail && [quality] == superior # [EnhancedDamage] >= 15 && [Tohit] != 1 && [Tohit] != 2 && [Sockets] == 4 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 //
+
+
+// =============== Call To Arms / Phoenix / Fortitude ===============
+
+[Name] == WarScepter && [quality] <= superior # [SkillHolyShield] >= 3 && ([Sockets] == 0 || [Sockets] >= 3) //
+[Name] == DivineScepter && [quality] <= superior # [SkillHolyShield] >= 3 && ([Sockets] == 0 || [Sockets] >= 3) //
+[Name] == WarScepter && [quality] <= superior # [SkillBlessedHammer]+[SkillConcentration] >= 5 && ([Sockets] == 0 || [Sockets] >= 3) //
+[Name] == DivineScepter && [quality] <= superior # [SkillBlessedHammer]+[SkillConcentration] >= 5 && ([Sockets] == 0 || [Sockets] >= 3) //
+
+
+// =============== Beast ===============
+
+[Name] == MilitaryPick && [quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 5 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 //
+//[Name] == MilitaryPick && [quality] == normal # [Sockets] == 5 //
+
+
+// =============== Grief ===============
+
+[Name] == Zweihander && [quality] == superior # [EnhancedDamage] == 15 && [Tohit] == 3 && ([Sockets] == 0 || [Sockets] == 5) //
+
+
+// =============== Insight(Chaos) ===============
+
+//[Name] == Scythe && [quality] <= normal # [Sockets] == 4 //
+//[Name] == Voulge && [quality] <= normal # ([Sockets] == 0 || [Sockets] == 4) //
+
+
+// =============== Enigma ===============
+
+//[Name] == LightPlate && [quality] == superior # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 && [Sockets] == 0 //
+[Name] == MagePlate && [quality] == superior # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [Sockets] == 0 //
+
+
+// =============== White ===============
+
+[Type] == Wand && [Name] != wnd && [Name] != 9wn && [Name] != ywn && [Quality] <= superior # [Sockets] != 1 && [SkillBoneSpear] == 3 && ([SkillAmplifyDamage] == 3 || [SkillBoneSpirit] == 3  || [SkillRevive] >= 1 || [SkillTeeth] == 3 || [SkillIronMaiden] == 3 || [SkillDecrepify] == 3 || [SkillRevive] >= 1 && [SkillDecrepify] >= 1) //
+
+
+// =============== Gold ===============
+
+[Name] == gold # [Gold] >= 3000 //

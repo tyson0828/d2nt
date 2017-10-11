@@ -1,0 +1,406 @@
+// ===============================================================================
+// ==================================== White ====================================
+// =============================== Edit by Èò¿©¿ï ================================
+// ===============================================================================
+
+
+// ===============================================================================
+// ==================================== Weapon ====================================
+// ===============================================================================
+
+
+// =============== Call To Arms ===============
+
+//[Name] == CrystalSword && [Quality] == normal && [Flag] != ethereal # [Sockets] == 5 //
+//[Name] == CrystalSword && [Quality] == normal && [Flag] == ethereal # [Sockets] == 5 //
+//[Name] == CrystalSword && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && ([Tohit] == 0 || [Tohit] == 3) && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 && [Sockets] == 5 //
+//[Name] == CrystalSword && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && ([Tohit] == 0 || [Tohit] == 3) && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 && [Sockets] == 5 //
+
+
+// =============== Spirit ===============
+
+//[Name] == CrystalSword && [Quality] <= superior # [Sockets] == 4 //
+//[Name] == CrystalSword && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+//[Name] == PhaseBlade && [Quality] == normal # [Sockets] == 4 //
+[Name] == PhaseBlade && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+
+
+// =============== Find Item Barbarian(not RuneWord) ===============
+
+//[Name] == CrystalSword && [Quality] == superior # [EnhancedDamage] >= 15 && ([Tohit] == 0 || [Tohit] == 3) && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 && ([Sockets] == 6 || [Sockets] == 0)//
+
+
+// =============== Crescont Moon ===============
+
+//[Name] == CrystalSword && [Quality] == superior # [EnhancedDamage] >= 15 && ([Tohit] == 0 || [Tohit] == 3) && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 && [Sockets] == 3 //
+[Name] == PhaseBlade && [Quality] == superior # [EnhancedDamage] >= 15 && ([Tohit] == 0 || [Tohit] == 3) && [Sockets] == 3 //
+
+
+// =============== Last Wish ===============
+
+[Name] == PhaseBlade && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 6 || [Sockets] == 0) //
+//[Name] == BerserkerAxe && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 6 || [Sockets] == 0) //
+
+
+// =============== Hand of Justice ===============
+
+[Name] == Cryptic Sword && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 0) //
+
+
+// =============== Heart of the Oak ===============
+
+//[Name] == Flail && [Quality] == normal # [Sockets] == 4 //
+[Name] == Flail && [Quality] == superior # [EnhancedDamage] >= 15 && ([Tohit] == 0 || [Tohit] == 3) && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 && [Sockets] == 4 //
+[Name] == Scourge && [Quality] == superior # [EnhancedDamage] >= 15 && ([Tohit] == 0 || [Tohit] == 3) && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 && [Sockets] == 4 //
+
+
+// =============== Call To Arms / Phoenix / Fortitude ===============
+
+[Name] == WarScepter && [quality] <= superior # [SkillHolyShield] >= 3 && ([Sockets] == 0 || [Sockets] >= 3) //
+[Name] == DivineScepter && [quality] <= superior # [SkillHolyShield] >= 3 && ([Sockets] == 0 || [Sockets] >= 3) //
+[Name] == Caduceus && [quality] <= superior # [SkillHolyShield] >= 3 && ([Sockets] == 0 || [Sockets] >= 3) //
+
+[Name] == WarScepter && [quality] <= superior # [SkillBlessedHammer]+[SkillConcentration] >= 5 && ([Sockets] == 0 || [Sockets] >= 3) //
+[Name] == DivineScepter && [quality] <= superior # [SkillBlessedHammer]+[SkillConcentration] >= 5 && ([Sockets] == 0 || [Sockets] >= 3) //
+[Name] == Caduceus && [quality] <= superior # [SkillBlessedHammer]+[SkillConcentration] >= 5 && ([Sockets] == 0 || [Sockets] >= 3) //
+
+[Name] == WarScepter && [quality] <= superior # [SkillConviction] >= 3 && ([SkillFistoftHeheavens] == 3 || [SkillBlessedHammer] == 3 || [SkillRedemption] == 3 || [SkillZeal] == 3) && ([Sockets] == 0 || [Sockets] >= 3) //
+[Name] == DivineScepter && [quality] <= superior # [SkillConviction] >= 3 && ([SkillFistoftHeheavens] == 3 || [SkillBlessedHammer] == 3 || [SkillRedemption] == 3 || [SkillZeal] == 3) && ([Sockets] == 0 || [Sockets] >= 3) //
+[Name] == Caduceus && [quality] <= superior # [SkillConviction] >= 3 && ([SkillFistoftHeheavens] == 3 || [SkillBlessedHammer] == 3 || [SkillRedemption] == 3 || [SkillZeal] == 3) && ([Sockets] == 0 || [Sockets] >= 3) //
+[Name] == WarScepter && [quality] <= superior # [SkillFanaticism] >= 3 && ([SkillFistoftHeheavens] == 3 || [SkillBlessedHammer] == 3 || [SkillRedemption] == 3 || [SkillZeal] == 3) && ([Sockets] == 0 || [Sockets] >= 3) //
+[Name] == DivineScepter && [quality] <= superior # [SkillFanaticism] >= 3 && ([SkillFistoftHeheavens] == 3 || [SkillBlessedHammer] == 3 || [SkillRedemption] == 3 || [SkillZeal] == 3) && ([Sockets] == 0 || [Sockets] >= 3) //
+[Name] == Caduceus && [quality] <= superior # [SkillFanaticism] >= 3 && ([SkillFistoftHeheavens] == 3 || [SkillBlessedHammer] == 3 || [SkillRedemption] == 3 || [SkillZeal] == 3) && ([Sockets] == 0 || [Sockets] >= 3) //
+
+
+// =============== Faith / Brand / Ice / Breath of the Dying ===============
+
+//[Name] == MatriarchalBow && [Quality] == normal # [BowandcrossbowskillTab] == 3 && [Sockets] == 4 //
+[Name] == MatriarchalBow && [Quality] == superior # [BowandcrossbowskillTab] == 3 && [EnhancedDamage] == 15 && [Sockets] == 4 //
+//[Name] == GrandMatronBow && [Quality] == normal # [BowandcrossbowskillTab] == 3 && [Sockets] == 4 //
+[Name] == GrandMatronBow && [Quality] == superior # [BowandcrossbowskillTab] == 3 && [EnhancedDamage] == 15 && [Sockets] == 4 //
+
+//[Name] == BladeBow && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 0) //
+//[Name] == GreatBow && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 0) //
+//[Name] == GorgonCrossbow && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 0) //
+
+[Name] == DiamondBow && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+[Name] == ShadowBow  && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+[Name] == CrusaderBow && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+[Name] == WardBow && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+[Name] == CrusaderBow && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+[Name] == HydraBow && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+
+//[Name] == CrusaderBow && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 6 || [Sockets] == 0) //
+//[Name] == HydraBow && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 6 || [Sockets] == 0) //
+
+
+// =============== Edge ===============
+
+[Name] == MatriarchalBow && [Quality] == superior # [BowandcrossbowskillTab] == 3 && [EnhancedDamage] == 15 && [Tohit] == 3 && [Sockets] == 3 //
+[Name] == GrandMatronBow && [Quality] == superior # [BowandcrossbowskillTab] == 3 && [EnhancedDamage] == 15 && [Tohit] == 3 && [Sockets] == 3 //
+//[Name] == SpiderBow && [Quality] == superior # [EnhancedDamage] == 15 && [Tohit] == 3 && [Sockets] == 3 //
+//[Name] == BladeBow && [Quality] == superior # [EnhancedDamage] == 15 && [Tohit] == 3 && [Sockets] == 3 //
+//[Name] == GreatBow && [Quality] == superior # [EnhancedDamage] == 15 && [Tohit] == 3 && [Sockets] == 3 //
+//[Name] == DiamondBow && [Quality] == superior # [EnhancedDamage] == 15 && [Tohit] == 3 && [Sockets] == 3 //
+//[Name] == ShadowBow && [Quality] == superior # [EnhancedDamage] == 15 && [Tohit] == 3 && [Sockets] == 3 //
+//[Name] == CrusaderBow && [Quality] == superior # [EnhancedDamage] == 15 && [Tohit] == 3 && [Sockets] == 3 //
+//[Name] == WardBow && [Quality] == superior # [EnhancedDamage] == 15 && [Tohit] == 3 && [Sockets] == 3 //
+//[Name] == HydraBow && [Quality] == superior # [EnhancedDamage] == 15 && [Tohit] == 3 && [Sockets] == 3 //
+//[Name] == ShortBow && [Quality] == normal # [Sockets] == 3 //
+//[Name] == Hunter'sBow && [Quality] == normal # [Sockets] == 3 //
+//[Name] == CompositeBow && [Quality] == normal # [Sockets] == 3 //
+//[Name] == ShortBattleBow && [Quality] == normal # [Sockets] == 3 //
+//[Name] == ShortWarBow && [Quality] == normal # [Sockets] == 3 //
+
+
+// =============== Oath ===============
+
+//[Name] == CrypticSword && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 4 || [Sockets] == 0) //
+[Name] == CrypticSword && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 0) //
+//[Name] == ConquestSword && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 4 || [Sockets] == 0) //
+[Name] == ConquestSword && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 0) //
+//[Name] == HighlandBlade && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 4 || [Sockets] == 0) //
+[Name] == HighlandBlade && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 0) //
+//[Name] == SmallCrescent && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 4 || [Sockets] == 0) //
+[Name] == SmallCrescent && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 0) //
+//[Name] == BalrogBlade && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 4 || [Sockets] == 0) //
+[Name] == BalrogBlade && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 0) //
+//[Name] == ColossusSword && [Quality] <= superior && [Flag] == ethereal # [Sockets] == 4 //
+[Name] == ColossusSword && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+//[Name] == ColossusBlade && [Quality] <= superior && [Flag] == ethereal # [Sockets] == 4 //
+[Name] == ColossusBlade && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+//[Name] == BerserkerAxe && [Quality] <= superior && [Flag] == ethereal # [Sockets] == 4 //
+[Name] == BerserkerAxe && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+//[Name] == WarSpike && [Quality] <= superior && [Flag] == ethereal # [Sockets] == 4 //
+[Name] == WarSpike && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+
+
+// =============== Death ===============
+
+//[Name] == BerserkerAxe && [Quality] <= superior && [Flag] == ethereal # [Sockets] == 5 //
+[Name] == BerserkerAxe && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Sockets] == 5 //
+[Name] == BerserkerAxe && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 5 //
+//[Name] == WarSpike && [Quality] <= superior && [Flag] == ethereal # [Sockets] == 5 //
+[Name] == WarSpike && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Sockets] == 5 //
+[Name] == WarSpike && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 5 //
+//[Name] == ColossusBlade && [Quality] <= superior && [Flag] == ethereal # [Sockets] == 5 //
+[Name] == ColossusBlade && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Sockets] == 5 //
+[Name] == ColossusBlade && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 5 //
+//[Name] == ColossusSword && [Quality] <= superior && [Flag] == ethereal # [Sockets] == 5 //
+[Name] == ColossusSword && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && ([Sockets] == 5 || [Sockets] == 0) //
+[Name] == ColossusSword && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 5 || [Sockets] == 0) //
+
+
+// =============== Breath of the Dying ===============
+
+//[Name] == ColossusBlade && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == ColossusBlade && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == ColossusBlade && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 6 || [Sockets] == 0) //
+//[Name] == BerserkerAxe && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == BerserkerAxe && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == BerserkerAxe && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 6 || [Sockets] == 0) //
+//[Name] == GiantThresher && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == GiantThresher && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == GiantThresher && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 6 || [Sockets] == 0) //
+//[Name] == WarPike && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == WarPike && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == WarPike && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 6 || [Sockets] == 0) //
+//[Name] == GhostSpear && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == GhostSpear && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == GhostSpear && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 6 || [Sockets] == 0) //
+//[Name] == ThunderMaul && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == ThunderMaul && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == ThunderMaul && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 6 || [Sockets] == 0) //
+//[Name] == MatriarchalSpear && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == MatriarchalSpear && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == MatriarchalSpear && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 6 || [Sockets] == 0) //
+//[Name] == MatriarchalPike && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == MatriarchalPike && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && ([Sockets] == 6 || [Sockets] == 0) //
+[Name] == MatriarchalPike && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 6 || [Sockets] == 0) //
+
+
+// =============== Grief / Doom ===============
+
+//[Name] == BerserkerAxe && [Quality] == normal && [Flag] != ethereal # [Sockets] == 5 //
+[Name] == BerserkerAxe && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && [Sockets] == 5 //
+[Name] == BerserkerAxe && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 5 //
+//[Name] == PhaseBlade && [Quality] == normal # [Sockets] == 5 //
+[Name] == PhaseBlade && [Quality] == superior # [EnhancedDamage] >= 15 && [Sockets] == 5 //
+[Name] == PhaseBlade && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 5 //
+//[Name] == Zweihander && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && ([Sockets] == 5 || [Sockets] == 0) //
+[Name] == Zweihander && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 5 || [Sockets] == 0) //
+//[Name] == ColossusBlade && [Quality] == normal && [Flag] != ethereal # [Sockets] == 5 //
+[Name] == ColossusBlade && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && [Sockets] == 5 //
+[Name] == ColossusBlade && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 5 //
+[Name] == GloriousAxe && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && [Sockets] == 5 //
+[Name] == GloriousAxe && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 5 //
+
+
+// =============== Passion ===============
+
+[Name] == BerserkerAxe && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+[Name] == ColossusBlade && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+[Name] == ColossusSword && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 4 //
+[Name] == BalrogBlade && [Quality] == superior && [Flag] != ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 0) //
+
+
+// =============== Beast ===============
+
+//[Name] == MilitaryPick && [Quality] == normal # [Sockets] == 5 //
+[Name] == MilitaryPick && [Quality] == superior # [EnhancedDamage] >= 15 && [Tohit] == 3 && [Sockets] == 5 //
+
+
+// =============== Insight(poor) ===============
+
+//[Name] == ColossusVoulge && [Quality] <= superior # ([Sockets] == 4 || [Sockets] == 0) //
+//[Name] == Thresher&& [Quality] <= superior # [Sockets] == 4 //
+//[Name] == CrypticAxe && [Quality] <= superior # [Sockets] == 4 //
+//[Name] == GiantThresher && [Quality] <= superior # [Sockets] == 4 //
+//[Name] == GreatPoleaxe && [Quality] <= superior # [Sockets] == 4 //
+
+
+// =============== Insight / Obedience / Infinity ===============
+
+//[Name] == ColossusVoulge && [Quality] <= superior && [Flag] == ethereal # ([Sockets] == 4 || [Sockets] == 0) //
+//[Name] == ColossusVoulge && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && ([Sockets] == 4 || [Sockets] == 0) //
+//[Name] == ColossusVoulge && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 0) //
+//[Name] == Thresher && [Quality] <= superior && [Flag] == ethereal # [Sockets] == 4 //
+[Name] == Thresher && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Sockets] == 4 //
+[Name] == Thresher && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 5 || [Sockets] == 0) //
+//[Name] == CrypticAxe && [Quality] <= superior && [Flag] == ethereal # [Sockets] == 4 //
+[Name] == CrypticAxe && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Sockets] == 4 //
+[Name] == CrypticAxe && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 5 || [Sockets] == 0) //
+//[Name] == GiantThresher && [Quality] <= superior && [Flag] == ethereal # [Sockets] == 4 //
+[Name] == GiantThresher && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Sockets] == 4 //
+[Name] == GiantThresher && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 5) //
+//[Name] == GreatPoleaxe && [Quality] <= superior && [Flag] == ethereal # [Sockets] == 4 //
+[Name] == GreatPoleaxe && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Sockets] == 4 //
+[Name] == GreatPoleaxe && [Quality] == superior && [Flag] == ethereal # [EnhancedDamage] >= 15 && [Tohit] == 3 && ([Sockets] == 4 || [Sockets] == 5) //
+
+//[Name] == Scythe && [Quality] == normal && [Flag] != ethereal # [Sockets] == 4 //
+//[Name] == Voulge && [Quality] == normal && [Flag] != ethereal # [Sockets] == 4 //
+
+
+// =============== Chaos / Fury ===============
+
+[Name] == scissorssuwayyah && [Quality] <= superior && [Flag] != ethereal # [SkillLightningSentry] == 3 && ([SkillMindBlast] == 3 || [SkillDragonFlight] == 3 || [SkillVenom] == 3 || [SkillShadowMaster] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == scissorssuwayyah && [Quality] <= superior && [Flag] != ethereal # [SkillDragonFlight] == 3 && ([SkillMindBlast] == 3 || [SkillVenom] == 3 || [SkillShadowMaster] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == scissorssuwayyah && [Quality] <= superior && [Flag] != ethereal # [SkillVenom] == 3 && ([SkillMindBlast] == 3 || [SkillShadowMaster] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == scissorssuwayyah && [Quality] <= superior && [Flag] != ethereal # [SkillShadowMaster] == 3 && ([SkillMindBlast] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == scissorssuwayyah && [Quality] <= superior && [Flag] != ethereal # [SkillMindBlast] == 3 && [SkillWeaponBlock] == 3 && ([Sockets] == 3 || [Sockets] == 0) //
+
+[Name] == suwayyah && [Quality] <= superior && [Flag] != ethereal # [SkillLightningSentry] == 3 && ([SkillMindBlast] == 3 || [SkillDragonFlight] == 3 || [SkillVenom] == 3 || [SkillShadowMaster] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == suwayyah && [Quality] <= superior && [Flag] != ethereal # [SkillDragonFlight] == 3 && ([SkillMindBlast] == 3 || [SkillVenom] == 3 || [SkillShadowMaster] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == suwayyah && [Quality] <= superior && [Flag] != ethereal # [SkillVenom] == 3 && ([SkillMindBlast] == 3 || [SkillShadowMaster] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == suwayyah && [Quality] <= superior && [Flag] != ethereal # [SkillShadowMaster] == 3 && ([SkillMindBlast] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == suwayyah && [Quality] <= superior && [Flag] != ethereal # [SkillMindBlast] == 3 && [SkillWeaponBlock] == 3 && ([Sockets] == 3 || [Sockets] == 0) //
+
+[Name] == feralclaws && [Quality] <= superior && [Flag] != ethereal # [SkillLightningSentry] == 3 && ([SkillMindBlast] == 3 || [SkillDragonFlight] == 3 || [SkillVenom] == 3 || [SkillShadowMaster] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == feralclaws && [Quality] <= superior && [Flag] != ethereal # [SkillDragonFlight] == 3 && ([SkillMindBlast] == 3 || [SkillVenom] == 3 || [SkillShadowMaster] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == feralclaws && [Quality] <= superior && [Flag] != ethereal # [SkillVenom] == 3 && ([SkillMindBlast] == 3 || [SkillShadowMaster] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == feralclaws && [Quality] <= superior && [Flag] != ethereal # [SkillShadowMaster] == 3 && ([SkillMindBlast] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == feralclaws && [Quality] <= superior && [Flag] != ethereal # [SkillMindBlast] == 3 && [SkillWeaponBlock] == 3 && ([Sockets] == 3 || [Sockets] == 0) //
+
+[Name] == RunicTalons && [Quality] <= superior && [Flag] != ethereal # [SkillLightningSentry] == 3 && ([SkillMindBlast] == 3 || [SkillDragonFlight] == 3 || [SkillVenom] == 3 || [SkillShadowMaster] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == RunicTalons && [Quality] <= superior && [Flag] != ethereal # [SkillDragonFlight] == 3 && ([SkillMindBlast] == 3 || [SkillVenom] == 3 || [SkillShadowMaster] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == RunicTalons && [Quality] <= superior && [Flag] != ethereal # [SkillVenom] == 3 && ([SkillMindBlast] == 3 || [SkillShadowMaster] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == RunicTalons && [Quality] <= superior && [Flag] != ethereal # [SkillShadowMaster] == 3 && ([SkillMindBlast] == 3 || [SkillWeaponBlock] == 3 || [SkillFade] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == RunicTalons && [Quality] <= superior && [Flag] != ethereal # [SkillMindBlast] == 3 && [SkillWeaponBlock] == 3 && ([Sockets] == 3 || [Sockets] == 0) //
+
+
+// =============== White ===============
+
+[Type] == Wand && [Name] != wand && [Name] != burntwand && [Name] != yewwand && [Quality] <= superior # [Sockets] != 1 && [SkillBoneSpear] == 3 && ([SkillAmplifyDamage] == 3 || [SkillBoneSpirit] == 3  || [SkillRevive] >= 1 || [SkillTeeth] == 3 || [SkillIronMaiden] == 3 || [SkillDecrepify] == 3 || [SkillRevive] >= 1 && [SkillDecrepify] >= 1) //
+
+
+
+// ===============================================================================
+// ==================================== Armor ====================================
+// ===============================================================================
+
+
+// =============== Enigma / Duress ===============
+
+[Name] == GothicPlate && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14  && [Sockets] == 3 //
+[Name] == AncientArmor && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14  && [Sockets] == 3 //
+[Name] == FullPlateMail && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14  && [Sockets] == 3 //
+[Name] == RussetArmor && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14  && [Sockets] == 3 //
+[Name] == LightPlate && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14  && [75] != 15 && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == Cuirass && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14  && [75] != 15 && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == MagePlate && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == DuskShroud && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14  && [Sockets] == 3 //
+[Name] == Wyrmhide && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14  && [Sockets] == 3 //
+[Name] == ScarabHusk && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14  && [Sockets] == 3 //
+[Name] == WireFleece && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14  && [Sockets] == 3 //
+[Name] == Boneweave && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15  && [Sockets] == 3 //
+[Name] == DiamondMail && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15  && [Sockets] == 3 //
+[Name] == GreatHauberk && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15  && [Sockets] == 3 //
+[Name] == LoricatedMail && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15  && [Sockets] == 3 //
+[Name] == ArchonPlate && [Quality] == normal && [Flag] != ethereal # [Defense] == 524 && [Sockets] == 3 //
+[Name] == ArchonPlate && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14  && [Sockets] == 3 //
+[Name] == SacredArmor && [Quality] == normal && [Flag] != ethereal # [Defense] == 600 && [Sockets] == 3 //
+[Name] == SacredArmor && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14  && [Sockets] == 3 //
+[Name] == BalrogSkin && [Quality] == normal && [Flag] != ethereal # [Defense] == 500 && [Sockets] == 3 //
+[Name] == BalrogSkin && [Quality] == normal && [Flag] != ethereal # [Defense] == 517 && [Sockets] == 3 //
+[Name] == BalrogSkin && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14  && [Sockets] == 3 //
+
+
+// =============== Fortitude ===============
+
+[Name] == WireFleece && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && ([Sockets] == 4 || [Sockets] == 0) //
+[Name] == ArchonPlate && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && ([Sockets] == 4 || [Sockets] == 0) //
+[Name] == DuskShroud && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && ([Sockets] == 4 || [Sockets] == 0) //
+[Name] == BalrogSkin && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && ([Sockets] == 4 || [Sockets] == 0) //
+[Name] == SacredArmor && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && ([Sockets] == 4 || [Sockets] == 0) //
+[Name] == Wyrmhide && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && ([Sockets] == 4 || [Sockets] == 0) //
+//[Name] == ScarabHusk && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] == 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && ([Sockets] == 4 || [Sockets] == 0) //
+
+
+// =============== Eth Body Armor ===============
+
+[Name] == SacredArmor && [Quality] == normal && [Flag] == ethereal # [Defense] >= 867 && [Sockets] == 0 //
+[Name] == ShadowPlate && [Quality] == normal && [Flag] == ethereal # [Defense] >= 835 && [Sockets] == 0 //
+[Name] == LacqueredPlate && [Quality] == normal && [Flag] == ethereal # [Defense] >= 800 && [Sockets] == 0 //
+[Name] == HellforgePlate && [Quality] == normal && [Flag] == ethereal # [Defense] >= 795 && [Sockets] == 0 //
+[Name] == KrakenShell && [Quality] == normal && [Flag] == ethereal # [Defense] >= 784 && [Sockets] == 0 //
+[Name] == ArchonPlate && [Quality] == normal && [Flag] == ethereal # [Defense] >= 775 && [Sockets] == 0 //
+[Name] == BalrogSkin && [Quality] == normal && [Flag] == ethereal # [Defense] >= 867 && [Sockets] == 0 //
+
+//[Name] == Boneweave && [Quality] == normal && [Flag] == ethereal # [Defense] >= 757 && [Sockets] == 0 // 757
+//[Name] == GreatHauberk && [Quality] == normal && [Flag] == ethereal # [Defense] >= 751 && [Sockets] == 0 // 751
+//[Name] == LoricatedMail && [Quality] == normal && [Flag] == ethereal # [Defense] >= 744 && [Sockets] == 0 // 744
+//[Name] == DiamondMail && [Quality] == normal && [Flag] == ethereal # [Defense] >= 733 && [Sockets] == 0 // 733
+//[Name] == WireFleece && [Quality] == normal && [Flag] == ethereal # [Defense] >= 721 && [Sockets] == 0 // 721
+//[Name] == ScarabHusk && [Quality] == normal && [Flag] == ethereal # [Defense] >= 711 && [Sockets] == 0 // 711
+//[Name] == Wyrmhide && [Quality] == normal && [Flag] == ethereal # [Defense] >= 705 && [Sockets] == 0 // 705
+//[Name] == DuskShroud && [Quality] == normal && [Flag] == ethereal # [Defense] >= 700 && [Sockets] == 0 // 700
+
+
+// =============== Eth Helm / Shield ===============
+
+//[Name] == Monarch && [Quality] == normal && [Flag] == ethereal # [Defense] >= 222 && [Sockets] == 0 //
+//[Name] == BoneVisage && [Quality] == normal && [Flag] == ethereal # [Defense] >= 235 && [Sockets] == 0 //
+//[Name] == Demonhead && [Quality] == normal && [Flag] == ethereal # [Defense] >= 231 && [Sockets] == 0 //
+//[Name] == Corona && [Quality] == normal && [Flag] == ethereal # [Defense] >= 247 && [Sockets] == 0 //
+//[Name] == TrollNest && [Quality] == normal && [Flag] == ethereal # [Defense] >= 259 && [Sockets] == 0 //
+//[Name] == BladeBarrier && [Quality] == normal && [Flag] == ethereal # [Defense] >= 244 && [Sockets] == 0 //
+
+[Type] == auricshields && [Class] == elite && [Quality] == normal && [Flag] == ethereal # [Sockets] == 0 && ([FireResist] >= 45 || ([EnhancedDamage] >= 65 && [Tohit] >= 120)) //
+
+
+// =============== Spirit / Phoenix ===============
+
+//[Name] == Monarch && [Quality] == normal && [Flag] != ethereal # ([Sockets] == 4 || [Sockets] == 0) //
+//[Name] == Monarch && [Quality] == normal && [Flag] != ethereal # [Defense] >= 148 && ([Sockets] == 4 || [Sockets] == 0) //
+[Name] == Monarch && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && ([Sockets] == 4 || [Sockets] == 0) //
+
+
+// =============== Paladin Spirit ===============
+
+//[Type] == auricshields && [Class] == normal && [Quality] <= superior # [Sockets] == 0 && [FireResist] >= 45 //
+//[Type] == auricshields && [Class] == exceptional && [Quality] <= superior # [Sockets] == 0 && [FireResist] >= 45 //
+
+
+// =============== Paladin Spirit / Phoenix / Sanctuary ===============
+
+[Type] == auricshields && [Class] == elite && [Quality] <= superior && [Flag] != ethereal # ([Sockets] >= 3 || [Sockets] == 0) && ([FireResist] >= 45 || ([EnhancedDamage] >= 65 && [Tohit] >= 120)) //
+
+
+// =============== Dream ===============
+
+[Name] == Monarch && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 && [Sockets] == 3 //
+[Name] == Bone Visage && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == Diadem && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && ([Sockets] == 3 || [Sockets] == 0) //
+//[Name] == GrandCrown && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 && ([Sockets] == 3 || [Sockets] == 0) //
+//[Name] == Demonhead && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 && ([Sockets] == 3 || [Sockets] == 0) //
+//[Name] == Corona && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 && ([Sockets] == 3 || [Sockets] == 0) //
+//[Name] == TrollNest && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 && ([Sockets] == 3 || [Sockets] == 0) //
+//[Name] == BladeBarrier && [Quality] == superior && [Flag] != ethereal # [EnhancedDefense] >= 15 && [75] != 1 && [75] != 2 && [75] != 3 && [75] != 4 && [75] != 5 && [75] != 6 && [75] != 7 && [75] != 8 && [75] != 9 && [75] != 10 && [75] != 11 && [75] != 12 && [75] != 13 && [75] != 14 && [75] != 15 && ([Sockets] == 3 || [Sockets] == 0) //
+
+
+// =============== Delirium ===============
+
+// === Druid ===
+[Type] == pelt && [Quality] <= superior # [SkillHurricane] == 3 && [SkillTornado] == 3 && ([Sockets] == 3 || [Sockets] == 0) //
+[Type] == pelt && [Quality] <= superior # [SkillArmageddon] == 3 && ([SkillVolcano] == 3 || [SkillFissure] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Type] == pelt && [Quality] <= superior # [SkillVolcano] == 3 && [SkillFissure] == 3 && ([Sockets] == 3 || [Sockets] == 0) //
+
+// === Barbarian ===
+[Name] == AssaultHelmet && [Quality] <= superior # [SkillBattleOrders] == 3 && ([SkillShout] == 3 || [SkillFinditem] == 3 || [SkillWhirlwind] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == AvengerGuard && [Quality] <= superior # [SkillBattleOrders] == 3 && ([SkillShout] == 3 || [SkillFinditem] == 3 || [SkillWhirlwind] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == SavageHelmet && [Quality] <= superior # [SkillBattleOrders] == 3 && ([SkillShout] == 3 || [SkillFinditem] == 3 || [SkillWhirlwind] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == Slayerguard && [Quality] <= superior # [SkillBattleOrders] == 3 && ([SkillShout] == 3 || [SkillFinditem] == 3 || [SkillWhirlwind] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == Conquerorcrown && [Quality] <= superior # [SkillBattleOrders] == 3 && ([SkillShout] == 3 || [SkillFinditem] == 3 || [SkillWhirlwind] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+[Name] == Guardiancrown && [Quality] <= superior # [SkillBattleOrders] == 3 && ([SkillShout] == 3 || [SkillFinditem] == 3 || [SkillWhirlwind] == 3) && ([Sockets] == 3 || [Sockets] == 0) //
+
+
+// =============== Splendor ===============
+
+[Type] == Voodooheads && [Quality] <= superior && [Flag] != ethereal # [SkillBoneSpear] == 3 && [SkillBoneSpirit] == 3 && [Sockets] != 1 //
+[Type] == Voodooheads && [Quality] <= superior && [Flag] != ethereal # [SkillPoisonNova] == 3 && [SkillLowerResist] == 3 && [Sockets] != 1 //
+[Type] == Voodooheads && [Quality] <= superior && [Flag] != ethereal # [SkillDecrepify] == 3 && [SkillIronMaiden] == 3 && [Sockets] != 1 //
+
+
+// =============== Gold ===============
+
+[Name] == gold # [Gold] >= 3000 //

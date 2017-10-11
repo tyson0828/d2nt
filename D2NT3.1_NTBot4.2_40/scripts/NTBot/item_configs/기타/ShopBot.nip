@@ -1,0 +1,95 @@
+// 셉터는 데미지 순으로 되어있습니다.
+
+
+// 셉터
+//------
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 1
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2                              && [SkillBlessedHammer] == 1
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 2
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 1 && [SkillBlessedHammer] == 1
+[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 3
+[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2                              && [SkillBlessedHammer] == 2
+[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 2 && [SkillBlessedHammer] == 1
+[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 1 && [SkillBlessedHammer] == 2
+[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 3 && [SkillBlessedHammer] == 1
+[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2                              && [SkillBlessedHammer] == 3
+[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 2 && [SkillBlessedHammer] == 2
+[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 1 && [SkillBlessedHammer] == 3
+[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 3 && [SkillBlessedHammer] == 2
+[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 2 && [SkillBlessedHammer] == 3
+[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 3 && [SkillBlessedHammer] == 3
+
+
+// 셉터(15힘 이상)
+//-----------------
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2                                                           && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 1                              && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2                              && [SkillBlessedHammer] == 1 && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 2                              && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 1 && [SkillBlessedHammer] == 1 && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 3                              && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2                              && [SkillBlessedHammer] == 2 && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 2 && [SkillBlessedHammer] == 1 && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 1 && [SkillBlessedHammer] == 2 && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 3 && [SkillBlessedHammer] == 1 && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2                              && [SkillBlessedHammer] == 3 && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 2 && [SkillBlessedHammer] == 2 && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 1 && [SkillBlessedHammer] == 3 && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 3 && [SkillBlessedHammer] == 2 && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 2 && [SkillBlessedHammer] == 3 && [Strength] >= 15
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 3 && [SkillBlessedHammer] == 3 && [Strength] >= 15
+
+
+// 셉터(10패캐 이상)
+//-------------------
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2                                                           && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 1                              && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2                              && [SkillBlessedHammer] == 1 && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 2                              && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 1 && [SkillBlessedHammer] == 1 && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 3                              && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2                              && [SkillBlessedHammer] == 2 && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 2 && [SkillBlessedHammer] == 1 && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 1 && [SkillBlessedHammer] == 2 && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 3 && [SkillBlessedHammer] == 1 && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2                              && [SkillBlessedHammer] == 3 && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 2 && [SkillBlessedHammer] == 2 && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 1 && [SkillBlessedHammer] == 3 && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 3 && [SkillBlessedHammer] == 2 && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 2 && [SkillBlessedHammer] == 3 && [FCR] >= 10
+//[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 2 && [SkillConcentration] == 3 && [SkillBlessedHammer] == 3 && [FCR] >= 10
+
+
+[Type] == Scepter && [Quality] == Magic # [PaladinSkills] == 1 && [SkillConcentration] == 3 && [SkillBlessedHammer] == 3 && [FCR] >= 10
+
+
+// 완드
+//------
+//[Type] == Wand && [Quality] == Magic # [NecromancerSkills] == 2 && [SkillClayGolem] == 3 && [SkillDecrepify] == 3 && [FCR] >= 20
+//[Type] == Wand && [Quality] == Magic # [NecromancerSkills] == 2 && [SkillClayGolem] == 3 && [SkillIronMaiden] == 3 && [FCR] >= 20
+//[Type] == Wand && [Quality] == Magic # [NecromancerSkills] == 2 && [SkillClayGolem] == 3 && [SkillBoneSpear] == 3 && [FCR] >= 20
+//[Type] == Wand && [Quality] == Magic # [NecromancerSkills] == 2 && [SkillBoneSpear] == 3 && [SkillDecrepify] == 3 && [FCR] >= 20
+//[Type] == Wand && [Quality] == Magic # [NecromancerSkills] == 2 && [SkillBoneSpear] == 3 && [SkillIronMaiden] == 3 && [FCR] >= 20
+//[Type] == Wand && [Quality] == Magic # [NecromancerSkills] == 2 && [SkillRaiseSkeleton] == 3 && [SkillSkeletalMage] == 3
+//[Type] == Wand && [Quality] == Magic # [NecromancerSkills] == 2 && [SkillRaiseSkeleton] == 3 && [SkillSkeletonMastery] == 3
+//[Type] == Wand && [Quality] == Magic # [NecromancerSkills] == 2 && [SkillRaiseSkeleton] == 3 && [SkillSummonResist] == 3
+//[Type] == Wand && [Quality] == Magic # [NecromancerSkills] == 2 && [SkillSkeletalMage] == 3 && [SkillSkeletonMastery] == 3
+//[Type] == Wand && [Quality] == Magic # [NecromancerSkills] == 2 && [SkillSkeletalMage] == 3 && [SkillSummonResist] == 3
+
+
+// 스태프
+//--------
+//[Type] == Staff && [Quality] == Magic # [SorceressSkills] == 2 && [SkillBlizzard] == 3 && [FCR] >= 20
+//[Type] == Staff && [Quality] == Magic # [SorceressSkills] == 2 && [SkillBlizzard] == 3 && [SkillIceBlast] == 3 && [FCR] >= 20
+//[Type] == Staff && [Quality] == Magic # [SorceressSkills] == 2 && [SkillEnchant] == 3 && [FCR] >= 20
+
+
+// 라지쉴드(15방상/3소켓, 노말/액트 2/파라 한테서 삽니다)
+//--------------------------------------------------------
+//[Name] == LargeShield && [Quality] == Superior # [EnhancedDefense] >= 15 && [Sockets] >= 3
+
+
+// 바바리안 함성용 무기
+//----------------------
+//[Quality] == Magic # [BarbarianSkills] == 2 && [Dexterity] <= 0 && [Strength] <= 48

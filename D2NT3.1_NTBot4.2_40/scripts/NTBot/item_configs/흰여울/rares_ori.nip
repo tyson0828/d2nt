@@ -1,0 +1,225 @@
+// ===============================================================================
+// ==================================== Rare =====================================
+// ================================= Edit by Man =================================
+// ===============================================================================
+
+
+// ===============================================================================
+// =================================== Weapon ====================================
+// ===============================================================================
+
+
+// =============== Exceptional Weapon ===============
+
+[Name] == Naga && [Quality] == rare # ([EnhancedDamage] >= 180 || ([EnhancedDamage] >= 170 && [BarbarianSkills] == 2)) //
+[Name] == AncientAxe && [Quality] == rare # [EnhancedDamage] >=180 //
+[Name] == RuneBow && [Quality] == rare # [IAS] >= 10 && [EnhancedDamage] >= 180 //
+[Name] == GothicBow && [Quality] == rare # [IAS] >=10 && [EnhancedDamage] >= 180 //
+[Name] == BattleHammer && [Quality] == rare # ([EnhancedDamage] >= 170 || ([EnhancedDamage] >= 160 && [BarbarianSkills] == 2)) //
+[Name] == MarteldeFer && [Quality] == rare # ([EnhancedDamage] >= 170 || ([EnhancedDamage] >= 160 && [BarbarianSkills] == 2)) //
+[Name] == Partizan && [Quality] == rare # [EnhancedDamage] >= 190 //
+[Name] == 9h9 && [Quality] == rare # [EnhancedDamage] >= 190 // Bec-De-Corbin
+[Name] == GrimScythe && [Quality] == rare # [EnhancedDamage] >= 190 //
+[Name] == DivineScepter && [Quality] == rare # [EnhancedDamage] >= 190 //
+[Name] == Lance && [Quality] == rare # ([EnhancedDamage] >= 170 || ([EnhancedDamage] >= 150 && ([Durability] == 75 || [BarbarianSkills] == 2 || [ItemReqpercent] == -20 || [ItemReqpercent] == -30))) //
+[Name] == RuneSword && [Quality] == rare # [EnhancedDamage] >= 190 //
+[Name] == ExecutionerSword && [Quality] == rare # ([EnhancedDamage] >= 180 || ([EnhancedDamage] >= 160 && ([BarbarianSkills] == 2 || [ItemReqpercent] == -20 || [ItemReqpercent] == -30))) //
+[Name] == GothicSword && [Quality] == rare # [EnhancedDamage] >= 190 //
+[Name] == Zweihander && [Quality] == rare # [EnhancedDamage] >= 190 //
+[Name] == Knout && [Quality] == rare # [EnhancedDamage] >= 190 //
+[Name] == AncientSword && [Quality] == rare # [EnhancedDamage] >= 190 //
+
+
+// =============== Barbarian 2skill Weapon ===============
+
+[Name] == HandAxe && [Quality] == rare # [BarbarianSkills] == 2 && ([Strength] >= 9 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+[Name] == Hatchet && [Quality] == rare # [BarbarianSkills] == 2 && ([Strength] >= 9 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+[Name] == Club && [Quality] == rare # [BarbarianSkills] == 2 && ([MaxHp] >= 30 || [Strength] >= 12 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+[Name] == SpikedClub && [Quality] == rare # [BarbarianSkills] == 2 && ([MaxHp] >= 30 || [Strength] >= 12 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+[Name] == Cudgel && [Quality] == rare # [BarbarianSkills] == 2 && ([MaxHp] >= 30 || [Strength] >= 12 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+[Name] == BarbedClub && [Quality] == rare # [BarbarianSkills] == 2 && ([MaxHp] >= 30 || [Strength] >= 12 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+[Name] == mace && [Quality] == rare # [BarbarianSkills] == 2 && ([MaxHp] >= 30 || [Strength] >= 12 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+[Name] == MorningStar && [Quality] == rare # [BarbarianSkills] == 2 && ([MaxHp] >= 30 || [Strength] >= 12 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+[Name] == FlangedMace && [Quality] == rare # [BarbarianSkills] == 2 && ([MaxHp] >= 30 || [Strength] >= 12 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+[Name] == JaggedStar && [Quality] == rare # [BarbarianSkills] == 2 && ([MaxHp] >= 30 || [Strength] >= 12 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+[Name] == ShortSword && [Quality] == rare # [BarbarianSkills] == 2 && ([LifeLeech] >= 6 || [ManaLeech] >= 6 || [Strength] >= 9 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+[Name] == Gladius && [Quality] == rare # [BarbarianSkills] == 2 && ([LifeLeech] >= 6 || [ManaLeech] >= 6 || [Strength] >= 9 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+[Name] == BastardSword && [Quality] == rare # [BarbarianSkills] == 2 && ([LifeLeech] >= 6 || [ManaLeech] >= 6 || [Strength] >= 9 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 20) //
+
+//[Name] == ShortSword && [Quality] == rare # [BarbarianSkills] == 2 //
+//[Name] == Gladius && [Quality] == rare # [BarbarianSkills] == 2 //
+
+
+// =============== Scepter ===============
+
+// === Hammerdin Scepter ===
+//[Type] == Scepter && [Quality] == rare # [PaladinSkills] == 2 && [SkillConcentration] == 3 && [SkillBlessedHammer] >= 2 //
+[Type] == Scepter && [Quality] == rare # [PaladinSkills] == 2 && [SkillConcentration] >= 2 && [SkillBlessedHammer] == 3 //
+[Type] == Scepter && [Quality] == rare # [PaladinSkills] == 2 && [SkillConcentration] >= 2 && [SkillBlessedHammer] >= 2 && ([Strength] >= 10 || [FCR] == 10 || [MaxMana] >= 40 || [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 30) //
+[Type] == Scepter && [Quality] == rare # [PaladinSkills] == 2 && [SkillBlessedHammer] == 3 && [FCR] == 10 //
+//[Type] == Scepter && [Quality] == rare # [PaladinSkills] == 2 && [SkillConcentration] == 3 && [FCR] == 10 //
+
+// === Medicdin Scepter ===
+[Type] == Scepter && [Quality] == rare # [PaladinSkills] == 2 && [SkillMeditation] == 3 && [FCR] == 10 //
+[Type] == Scepter && [Quality] == rare # [PaladinSkills] == 2 && [SkillMeditation] == 3 && [SkillHolyBolt] == 3 //
+[Type] == Scepter && [Quality] == magic # [PaladinSkills] == 2 && [SkillMeditation] == 3 && [SkillPrayer] == 3 //
+[Type] == Scepter && [Quality] == magic # [PaladinSkills] == 2 && [SkillMeditation] == 3 && [SkillBlessedHammer] == 3 && ([Strength] >= 10 || [FCR] == 10) //
+[Type] == Scepter && [Quality] == magic # [PaladinSkills] == 2 && [SkillHolyShock] == 3 && [SkillBlessedHammer] == 3 //
+
+
+// =============== Wand ===============
+
+// === BoneNec Wand ===
+[Type] == Wand && [Quality] == rare # [NecromancerSkills] == 2 && [SkillBoneSpear] >= 2 && [SkillIronMaiden] >= 1 && [SkillDecrepify] >= 1 && [FCR] == 20 //
+[Type] == Wand && [Quality] == rare # [NecromancerSkills] == 2 && [SkillBoneSpear] >= 2 && [SkillIronMaiden] >= 1 && [SkillClayGolem] >= 1 && [FCR] == 20 //
+[Type] == Wand && [Quality] == rare # [NecromancerSkills] == 2 && [SkillBoneSpear] >= 2 && [SkillClayGolem] >= 1 && [SkillDecrepify] >= 1 && [FCR] == 20 //
+[Type] == Wand && [Quality] == rare # [NecromancerSkills] == 2 && [SkillBoneSpear] >= 2 && ([SkillIronMaiden] >= 2 || [SkillDecrepify] >= 2) && [FCR] == 20 //
+[Type] == Wand && [Quality] == rare # [Necromancerskills] == 2 && [SkillBonespear] >= 2 && [LightResist] >= 30 && [ColdResist] >= 30 && [FCR] == 20 //
+
+// === Sorceress wand ===
+[Type] == 25 && [Quality] == rare # [FCR] >= 20 && (([ColdResist]+[LightResist]+[FireResist] >= 70 && [MaxMana] >=50) || [ColdResist]+[LightResist]+[FireResist] >= 95) //
+[Type] == 25 && [Quality] == rare # [FCR] >= 20 && [Energy] >= 15 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 95 //
+
+// =============== Staff ===============
+
+//[Type] == Staff && [Quality] == rare # [SorceressSkills] == 2 && [SkillEnchant] == 3 && [FCR] == 20 //
+[Type] == Staff && [Name] != WarStaff && [Name] != RuneStaff && [Quality] == rare # [SorceressSkills] == 2 && [SkillEnchant] == 3 && [FCR] == 20 //
+
+[Type] == Staff && [Quality] == rare # [SorceressSkills] == 2 && [SkillBlizzard] >= 3 && [SkillTeleport] >= 1 && [FCR] == 20 //
+
+
+
+// ===============================================================================
+// ==================================== Armor ====================================
+// ===============================================================================
+
+
+// =============== Body Armor ===============
+
+[Type] == Armor && [Quality] == rare # [FHR] >= 17 && ([MaxHp]+[MaxMana] >= 31 || ([MaxHp] >= 20 && [Dexterity] >= 8) || ([MaxHp] >= 20 && [Strength] >= 10) || ([MaxHp] >= 20 && [ItemPoisonLengthResist] >= 70) || ([Strength] >= 10 && [ItemPoisonLengthResist] >= 75) || ([Dexterity] >= 10 && [ItemPoisonLengthResist] == 75)) && [ColdResist]+[LightResist]+[FireResist] >= 75 //
+[Type] == Armor && [Quality] == rare # [FHR] >= 17 && [MaxHp]+[MaxMana] >= 31 && ([ColdResist] >= 25 || [LightResist] >= 25 || [FireResist] >= 25) && [PoisonResist] >= 25 //  
+[Type] == Armor && [Quality] == rare # [FHR] >= 17 && ([MaxHp]+[MaxMana] >= 62 || (([MaxMana] >= 31 || [MaxHp] >= 31 ) && [ItemPoisonLengthResist] >= 50)) && [ColdResist]+[LightResist]+[FireResist] >= 25 //
+
+// === Mage Plate ===
+[Name] == MagePlate && [Quality] == rare # [FHR] >= 17 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 50 && [EnhancedDefense] >= 1 //
+[Name] == MagePlate && [Quality] == rare # [FHR] >= 17 && ([MaxHp]+[MaxMana] >= 31 || ([MaxHp] >= 20 && [Dexterity] >= 8) || ([MaxHp] >= 20 && [Strength] >= 10) || ([MaxHp] >= 20 && [ItemPoisonLengthResist] >= 75) || ([Strength] >= 10 && [ItemPoisonLengthResist] >= 75) || ([Dexterity] >= 10 && [ItemPoisonLengthResist] == 75)) && [ColdResist]+[LightResist]+[FireResist] >= 45 //
+[Name] == MagePlate && [Quality] == rare # [FHR] >= 17 && [MaxHp] >= 31 && (([EnhancedDefense] >= 40 && [LightResist]+[FireResist]+[PoisonResist] >= 50) || ([MaxMana] >= 31 && [EnhancedDefense] >= 40)) && [LightResist]+[FireResist]+[PoisonResist] >= 25 //
+[Name] == MagePlate && [Quality] == rare # [EnhancedDefense] >= 66 && ([MaxHp] >= 31 || [MaxMana] >= 31) && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 50 && [ItemPoisonLengthResist] >= 75 //
+[Name] == MagePlate && [Quality] == rare # [EnhancedDefense] >= 66 && ([MaxHp] >= 31 || [MaxMana] >= 31) && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 50 //
+[Name] == MagePlate && [Quality] == rare # [EnhancedDefense] == 95 && [MaxHp] >= 50 //
+
+// === Ornate Plate ===
+[Name] == OrnatePlate && [Quality] == rare # [EnhancedDefense] >= 66 && [FHR] >= 17 && ([ColdResist]+[LightResist]+[FireResist] >= 40 || ([MaxMana] >= 31 && [ColdResist]+[LightResist]+[FireResist] >= 20) || ([MaxHp] >= 31 && [ColdResist]+[LightResist]+[FireResist] >= 20)) && [ItemReqpercent] == -30 //
+[Name] == OrnatePlate && [Quality] == rare # [EnhancedDefense] >= 80 && [ColdResist]+[LightResist]+[FireResist] >= 40 && [ItemReqpercent] == -30 //
+[Name] == OrnatePlate && [Quality] == rare # [EnhancedDefense] >= 90 && (([Strength] >= 10 && ([MaxHp] >= 40 || [Dexterity] >= 9)) || [Strength]+[Dexterity] >= 20) //
+[Name] == OrnatePlate && [Quality] == rare # [EnhancedDefense] >= 66 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 50 && [MaxHp] >= 40 && ([Strength] >= 10 || [Dexterity] >= 9 || [ItemReqpercent] == -30) //
+
+
+// =============== Gloves ===============
+
+[Name] == WarGauntlets && [Quality] == rare # [EnhancedDefense] >= 80 && [Strength] >= 7 && [Dexterity] >= 12 //
+[Type] == Gloves && [Class] == exceptional && [Quality] == rare # [EnhancedDefense] >= 90 && [Strength] >= 7 && [Dexterity] >= 12 //
+[Type] == Gloves && [Quality] == rare # [Strength] >= 9 && [Dexterity] >= 15 //
+
+[Type] == Gloves && [Quality] == rare # [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 89 //
+[Type] == Gloves && [Quality] == rare # [ColdResist]+[LightResist]+[FireResist] >= 85 //
+[Type] == Gloves && [Quality] == rare # [ItemMagicBonus] >= 25 && [ColdResist]+[LightResist]+[FireResist] >= 80 //
+[Type] == Gloves && [Quality] == rare # [LifeLeech] >= 3 && [ManaLeech] >= 3 && [ColdResist]+[LightResist]+[FireResist] >= 40 && ([IAS] >= 10 || [Strength] >= 9 || [Dexterity] >= 15) //
+[Type] == Gloves && [Quality] == rare # [LifeLeech] >= 3 && [IAS] >= 10 && [ColdResist]+[LightResist]+[FireResist] >= 40 && ([ManaLeech] >= 3 || [Strength] >= 9 || [Dexterity] >= 15) //
+[Type] == Gloves && [Quality] == rare # [LifeLeech] >= 3 && [Strength] >= 9 && [ColdResist]+[LightResist]+[FireResist] >= 40 && ([IAS] >= 10 || [ManaLeech] >= 3 || [Dexterity] >= 15) //
+[Type] == Gloves && [Quality] == rare # [LifeLeech] >= 3 && [Dexterity] >= 15 && [ColdResist]+[LightResist]+[FireResist] >= 40 && ([IAS] >= 10 || [Strength] >= 9 || [ManaLeech] >= 3) //
+
+
+// =============== Boots ===============
+
+[Type] == Boots && [Quality] == rare # [FRW] >= 20 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 70 // 
+[Type] == Boots && [Quality] == rare # [FRW] >= 30 && [FHR] == 10 && [ColdResist] >= 35 && [MaxMana] >= 35 //
+//[Type] == Boots && [Quality] == rare # [FRW] >= 30 && [FHR] == 10 && [LightResist] >= 35 && [MaxMana] >= 35 //
+//[Type] == Boots && [Quality] == rare # [FRW] >= 30 && [FHR] == 10 && [FireResist] >= 35 && [MaxMana] >= 35 //
+//[Type] == Boots && [Quality] == rare # [FRW] >= 30 && [FHR] == 10 && [PoisonResist] >= 35 && [MaxMana] >= 35 //
+[Type] == Boots && [Quality] == rare # [FRW] >= 30 && [ItemGoldBonus] >= 75 && [ItemMagicBonus] >= 20 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 50 //
+[Type] == Boots && [Quality] == rare # [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 95 && [FHR] >= 10 //
+
+[Name] == WarBoots && [Quality] == rare # [FRW] >= 30 && [Dexterity] >= 8 && [EnhancedDefense] >= 80 //
+[Type] == Boots && [Class] == exceptional && [Quality] == rare # [FRW] >= 30 && [Dexterity] >= 8 && [EnhancedDefense] >= 90 //
+
+
+// =============== Belt ===============
+
+[Type] == Belt && [Quality] == rare # [FHR] >= 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 70 && ([MaxHp] >= 30 || [Strength] >= 10) //
+[Type] == Belt && [Quality] == rare # [FHR] >= 17 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 50 && ([MaxHp] >= 30 || [Strength] >= 10) //
+[Type] == Belt && [Quality] == rare # [MaxHp] >= 40 && [Strength] >= 20 //
+[Name] == DemonHideSash && [Quality] == rare # [FHR] >= 17 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 && ([MaxHp] >= 30 || [Strength] >= 15) //
+[Name] == SharkSkinBelt && [Quality] == rare # [FHR] >= 17 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 && ([MaxHp] >= 30 || [Strength] >= 15) //
+//[Name] == SharkSkinBelt && [Quality] == rare # [Strength] >= 20 //
+//[Name] == DemonHideSash && [Quality] == rare # [Strength] >= 20 //
+[Name] == SharkSkinBelt && [Quality] == rare # ([Strength] >= 10 || [MaxHp] >= 20) && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 70 //
+[Name] == DemonHideSash && [Quality] == rare # ([Strength] >= 10 || [MaxHp] >= 20) && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 70 //
+[Name] == SharkSkinBelt && [Quality] == rare # [Strength] >= 10 && [MaxHp] >= 30 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 45 //
+[Name] == DemonHideSash && [Quality] == rare # [Strength] >= 10 && [MaxHp] >= 30 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 45 //
+
+[Name] == WarBelt && [Quality] == rare # [Strength] >= 15 && [MaxHp] >= 40 && [EnhancedDefense] >= 80 //
+
+
+// =============== Helm ===============
+
+[Type] == Helm && [Quality] == rare # [FHR] >= 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 45 && [MaxHp] >= 20 //
+[Type] == Helm && [Quality] == rare # [FHR] >= 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 80 //
+[Name] == WingedHelm && [Quality] == rare # [EnhancedDefense] >= 95 && [MaxHp] >= 35 && [Tohit] >= 20 //
+[Name] == WingedHelm && [Quality] == rare # [EnhancedDefense] >= 95 && [MaxHp] >= 35 && [ItemTohitpercent] == 5 //
+[Name] == GrandCrown && [Quality] == rare # [EnhancedDefense] >= 95 && [MaxHp] >= 35 && [Tohit] >= 20 //
+[Name] == GrandCrown && [Quality] == rare # [EnhancedDefense] >= 95 && [MaxHp] >= 35 && [ItemTohitpercent] == 5 //
+[Type] == Helm && [Quality] == rare # [LightResist] >= 25 && [ColdResist] >= 25 && [MaxHp] >= 35 //
+[Type] == Helm && [Quality] == rare # [FHR] >= 10 && [ColdResist] >= 29 && [MaxHp] >= 39 //
+
+// === Grim Helm ===
+[Name] == GrimHelm && [Quality] == rare # [EnhancedDefense] >= 10 && [FHR] >= 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 45 //
+[Name] == GrimHelm && [Quality] == rare # [FHR] >= 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 65 //
+[Name] == GrimHelm && [Quality] == rare # [EnhancedDefense] >= 80 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 && [MaxHp] >= 30 //  
+[Name] == GrimHelm && [Quality] == rare # [EnhancedDefense] >= 90 && [MaxHp] >= 31 //
+//[Name] == GrimHelm && [Quality] == rare && [Level] >=90 //
+
+// =============== Shield ===============
+
+// === For Sorceress / Barbarian ===
+[Name] == KiteShield && [Quality] == rare # [FHR] >= 17 && [FBR] >= 30 && [FireResist] >= 20 && [LightResist] >= 20 && [ColdResist] >= 20 && [PoisonResist] >= 20 //
+[Name] == SpikedShield && [Quality] == rare # [FHR] >= 10 && [FBR] >= 30 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == LargeShield && [Quality] == rare # [FHR] >= 17 && [FBR] >= 30 && [FireResist] >= 19 && [LightResist] >= 19 && [ColdResist] >= 19 && [PoisonResist] >= 19 // 
+[Name] == TowerShield && [Quality] == rare # [FHR] >= 17 && [FBR] >= 30 && [FireResist] >= 19 && [LightResist] >= 19 && [ColdResist] >= 19 && [PoisonResist] >= 19 //  
+[Name] == GothicShield && [Quality] == rare # [FHR] >= 17 && [FBR] >= 30 && [FireResist] >= 19 && [LightResist] >= 19 && [ColdResist] >= 19 && [PoisonResist] >= 19 // 
+[Name] == BoneShield && [Quality] == rare # [FHR] >= 10 && [FBR] >= 30 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == Defender && [Quality] == rare # [FHR] >= 10 && [FBR] >= 30 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == RoundShield && [Quality] == rare # [FHR] >= 10 && [FBR] >= 30 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == Scutum && [Quality] == rare # [FHR] >= 17 && [FBR] >= 30 && [FireResist] >= 19 && [LightResist] >= 19 && [ColdResist] >= 19 && [PoisonResist] >= 19 //  
+[Name] == DragonShield && [Quality] == rare # [FHR] >= 17 && [FBR] >= 30 && [FireResist] >= 19 && [LightResist] >= 19 && [ColdResist] >= 19 && [PoisonResist] >= 19 && [ItemReqpercent] == -20 //
+[Name] == DragonShield && [Quality] == rare # [FHR]>= 17 && [FBR] >= 30 && [FireResist] >= 19 && [LightResist] >= 19 && [ColdResist] >= 19 && [PoisonResist] >= 19 && [ItemReqpercent] == -30 //
+[Name] == BarbedShield && [Quality] == rare # [FHR]>= 10 && [FBR] >= 30 && [FireResist] >= 19 && [LightResist] >= 19 && [ColdResist] >= 19 && [PoisonResist] >= 19 //
+[Name] == Pavise && [Quality] == rare # [FBR] >= 30 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 && ([EnhancedDefense] >= 90 || [ItemReqpercent] == -30 || [FHR] >= 17) //
+[Name] == AncientShield && [Quality] == rare # [FHR] >= 17 && [FBR] >= 30 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 && [ItemReqpercent] == -30 && ([EnhancedDefense] >= 80 || [ItemPoisonLengthResist] == 75)
+[Name] == GrimShield && [Quality] == rare # [FBR] >= 30 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 && ([EnhancedDefense] >= 40 || [FHR] >= 10 || [ItemPoisonLengthResist] == 75 || [ItemHalfFreezeDuration] >= 1) //
+[Name] == GrimShield && [Quality] == rare # [FHR] >= 17 && [FBR] >= 30 && [FireResist]+[LightResist]+[ColdResist] >= 60 && ([EnhancedDefense] >= 40 || [ItemPoisonLengthResist] == 75 || [ItemHalfFreezeDuration] >= 1) //
+[Name] == GrimShield && [Quality] == rare # [EnhancedDefense] >= 95 && [FHR] >= 17 && [FBR] >= 30 && [Strength] >= 8 //
+
+// === Paladin 2skill Shield ===
+[Name] == KiteShield && [Quality] == rare # [PaladinSkills] == 2 && [FBR] >= 30 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == SpikedShield && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == LargeShield && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == TowerShield && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == GothicShield && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == BoneShield && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == Defender && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == RoundShield && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == Scutum && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == DragonShield && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == BarbedShield && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == BarbedShield && [Quality] == rare # [PaladinSkills] == 2 && [EnhancedDefense] >= 80 && [FHR] >= 10 && [FBR] >= 30 //
+[Name] == Pavise && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == AncientShield && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == GrimShield && [Quality] == rare # [PaladinSkills] == 2 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //
+[Name] == GrimShield && [Quality] == rare # [PaladinSkills] == 2 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 //
+[Name] == GrimShield && [Quality] == rare # [PaladinSkills] == 2 && [EnhancedDefense] >= 40 && ([ItemPoisonLengthResist] == 75 || [FHR] >= 10 || [ItemHalfFreezeDuration] >= 1 || [ColdResist]+[LightResist]+[FireResist] >= 30) //
+[Name] == GrimShield && [Quality] == rare # [PaladinSkills] == 2 && [EnhancedDefense] >= 80 && [FBR] >= 30 && [FHR] >= 10 //
+[Name] == GrimShield && [Quality] == rare # [Paladin skills] >= 1 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 && [EnhancedDefense] >= 80 && ([FHR] >= 10 || [ItemPoisonLengthResist] >= 75 || [ItemHalfFreezeDuration] >= 1) //
+
+//[Name] == GrimShield && [Quality] == rare # [PaladinSkills] == 2 //
+[Name] == GrimShield && [Quality] == rare # [PaladinSkills] == 1 && [FireResist] >= 16 && [LightResist] >= 16 && [ColdResist] >= 16 && [PoisonResist] >= 16 //

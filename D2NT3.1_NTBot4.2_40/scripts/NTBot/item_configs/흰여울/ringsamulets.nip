@@ -1,0 +1,110 @@
+// ===============================================================================
+// ============================== Rings And Amulets ==============================
+// =============================== Edit by Èò¿©¿ï ================================
+// ===============================================================================
+
+
+// ===============================================================================
+// ==================================== Ring =====================================
+// ===============================================================================
+
+
+// =============== Faster Cast Rate ===============
+
+[Type] == ring && [Quality] == rare # [FCR] == 10 && ([Strength] >= 20 || [Strength]+[Dexterity] >= 20 || [Dexterity] >= 15) //
+[Type] == ring && [Quality] == rare # [FCR] == 10 && ([Strength] >= 15 || [Dexterity] >= 10 ) && ([MaxMana] >= 50 || [MaxHp] >= 30 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40) //
+[Type] == ring && [Quality] == rare # [FCR] == 10 && [MaxHp]+[MaxMana] >= 60 //
+[Type] == ring && [Quality] == rare # [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 70 //
+
+//[Type] == ring && [Quality] == rare # [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40 //
+
+
+// =============== Life Leech / Mana Leech ===============
+
+[Type] == ring && [Quality] == rare # [Tohit] >= 100 && ([LifeLeech] >= 7 || [ManaLeech] >= 6) && ([Strength]+[Dexterity] >= 20 || [Dexterity] >= 15 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40) //
+
+
+// =============== Dual Leech ===============
+
+[Type] == ring && [Quality] == rare # [Tohit] >= 100 && [LifeLeech] >= 7 && [ManaLeech] >= 6 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40 || [MaxHp] >= 30 || [Dexterity] >= 10 || [Strength] >= 10 || [MinDamage] >= 8) //
+
+
+// =============== Combat ===============
+
+//[Type] == ring && [Quality] == rare # [Strength] >= 20 && [Dexterity] >= 15 //
+[Type] == ring && [Quality] == rare # [Strength] >= 20 && [Dexterity] >= 15 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60) //
+[Type] == ring && [Quality] == rare # [Strength] >= 20 && [Tohit] >= 100 && ([MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60) //
+[Type] == ring && [Quality] == rare # [Strength] >= 20 && [MinDamage] >= 8 && ([Tohit] >= 100 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60) //
+[Type] == ring && [Quality] == rare # [Strength] >= 20 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 && ([Tohit] >= 100 || [MinDamage] >= 8 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60) //
+[Type] == ring && [Quality] == rare # [Strength] >= 20 && [LifeLeech] >= 8 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60) //
+[Type] == ring && [Quality] == rare # [Strength] >= 20 && [ManaLeech] >= 6 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [LifeLeech] >= 8 || [MaxHp] >= 30 || [MaxMana] >= 60) //
+[Type] == ring && [Quality] == rare # [Strength] >= 20 && [MaxHp] >= 30 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [LifeLeech] >= 8 || [ManaLeech] >= 6 || [MaxMana] >= 60) //
+[Type] == ring && [Quality] == rare # [Strength] >= 20 && [MaxMana] >= 60 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [LifeLeech] >= 8 || [ManaLeech] >= 6 || [MaxHp] >= 30) //
+[Type] == ring && [Quality] == rare # [Dexterity] >= 15 && [Tohit] >= 100 && ([MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60) //
+[Type] == ring && [Quality] == rare # [Dexterity] >= 15 && [MinDamage] >= 8 && ([Tohit] >= 100 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60) //
+[Type] == ring && [Quality] == rare # [Dexterity] >= 15&& [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 && ([Tohit] >= 100 || [MinDamage] >= 8 || [LifeLeech] >= 8  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60) //
+[Type] == ring && [Quality] == rare # [Dexterity] >= 15 && [LifeLeech] >= 8 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [ManaLeech] >= 6 || [MaxHp] >= 30 || [MaxMana] >= 60) //
+[Type] == ring && [Quality] == rare # [Dexterity] >= 15 && [ManaLeech] >= 6 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [LifeLeech] >= 8 || [MaxHp] >= 30 || [MaxMana] >= 60) //
+[Type] == ring && [Quality] == rare # [Dexterity] >= 15 && [MaxHp] >= 30 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [LifeLeech] >= 8 || [ManaLeech] >= 6 || [MaxMana] >= 60) //
+[Type] == ring && [Quality] == rare # [Dexterity] >= 15 && [MaxMana] >= 60 && ([Tohit] >= 100 || [MinDamage] >= 8 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20  || [LifeLeech] >= 8 || [ManaLeech] >= 6 || [MaxHp] >= 30) //
+[Type] == ring && [Quality] == rare # [Tohit] >= 100 && [MinDamage] >= 8 && [MaxDamage] == 4 && ([Strength] >= 20 || [Dexterity] >= 15 || [MaxHp] >= 35) // 
+
+
+// =============== Strength ===============
+
+//[Type] == ring && [Quality] == rare # [Strength] >= 20 //
+[Type] == ring && [Quality] == rare # [Strength] >= 20 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 50 || ([MaxHp] >= 30 || [MaxMana] >= 80) && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 36) //
+
+
+// =============== Dexterity ===============
+
+//[Type] == ring && [Quality] == rare # [Dexterity] >= 15 //
+[Type] == ring && [Quality] == rare # [Dexterity] >= 15 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 50 || ([MaxHp] >= 30 || [MaxMana] >= 80) && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 36) //
+
+
+// =============== Magic Chance ===============
+
+[Type] == ring && [Quality] == rare # [ItemMagicBonus] >= 25 && ([MaxMana] >= 90 || [MaxHp] >= 40 || [Strength] >= 20 || [Dexterity] >= 15 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40) //
+
+
+// =============== Resist ===============
+
+[Type] == ring && [Quality] == rare # [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 90 //
+[Type] == ring && [Quality] == rare # [MaxMana] >= 90 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 //
+
+
+// =============== Magic ===============
+
+[Type] == ring && [Quality] == Magic # [ItemMagicBonus] >= 39 //
+[Type] == ring && [Quality] == Magic # [ItemMagicBonus] >= 25 && ([MaxMana] >= 120 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60) //
+[Type] == ring && [Quality] == Magic # [FCR] == 10 && ([MaxMana] >= 120 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60) //
+[Type] == ring && [Quality] == Magic # ([Strength] >= 20 || [Dexterity] >= 20 || [MaxHp] >= 40) && ([MaxMana] >= 120 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60)//
+
+
+
+// ===============================================================================
+// =================================== Amulet ====================================
+// ===============================================================================
+
+
+// =============== All Class ===============
+
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FCR] == 10 //
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [Strength]+[Dexterity] >= 30 //
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [Strength] >= 21 && ([LifeLeech] >=7 || [ManaLeech] >= 7 || [MaxHp] >= 40) //
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [Dexterity] >= 16 && ([LifeLeech] >=7 || [ManaLeech] >= 7 || [MaxHp] >= 40) //
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [LifeLeech] >= 5 && [ManaLeech] >= 5 //
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [Strength]+[Dexterity] >= 20 && [ColdResist] >= 35 //
+
+
+// =============== Barbarian ===============
+
+[Type] == Amulet && [Quality] == rare # [BarbarianSkills] == 2 && [ItemGoldBonus] >= 80 && [ItemMagicBonus] >= 25 //
+
+
+// =============== Magic ===============
+
+//[Type] == Amulet && [Quality] == Magic # [WarCriesSkillTab] == 3 //
+[Type] == Amulet && [Quality] == Magic # [WarCriesSkillTab] == 3 && ([Strength] >= 30 || [Dexterity] >= 30 || [MaxHp] >= 100 || [FCR] == 10 || [ItemGoldBonus] >= 80) //
+[Type] == Amulet && [Quality] == Magic # ([LightningSkillTab] == 3 || [FireSkillTab] == 3 ||  [PaliCombatSkillTab] == 3 || [ElementalSkillTab] == 3 || [PoisonAndBoneSkillTab] == 3 || [TrapsSkillTab] == 3) && ([Strength] >= 30 || [Dexterity] >= 30 || [MaxHp] >= 100 || [FCR] == 10) //
+[Type] == Amulet && [Quality] == Magic # ([DruidSkills] == 2 || [PaladinSkills] == 2) && [MaxHp] >= 100 //

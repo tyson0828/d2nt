@@ -1,0 +1,13 @@
+function MyMain¸¸´ÉÂÌº¿½ºÅé(runScriptIndex)
+{
+    MyCommon.ResetConfig(runScriptIndex, [
+        "JjolBotStopJjol"]);
+
+    var _list = (MyConfig.JjolBotStopJjol.length > 0) ? MyConfig.JjolBotStopJjol : MyConfig.JjolBotGisaJjol;
+
+    MyJjol.gisaJjolItem = false;
+
+    MyJjol.WriteCheckMessage("³¡³»±â/" + _list.join("/").toLowerCase(), 10, 4, 0, _list);
+
+    return "MyMain()";
+}

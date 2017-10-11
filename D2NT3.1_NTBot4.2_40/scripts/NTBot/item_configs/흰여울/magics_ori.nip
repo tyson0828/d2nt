@@ -1,0 +1,60 @@
+// ===============================================================================
+// ==================================== Magic ====================================
+// ================================= Edit by Man =================================
+// ===============================================================================
+
+
+// ===============================================================================
+// =================================== Weapon ====================================
+// ===============================================================================
+
+
+// =============== Scepter ===============
+
+// === Hammerdin Scepter ===
+//[Type] == Scepter && [Quality] == magic # [PaladinSkills] == 2 && [SkillConcentration] == 3 && [SkillBlessedHammer] >= 2 //
+[Type] == Scepter && [Quality] == magic # [PaladinSkills] == 2 && [SkillConcentration] >= 3 && [SkillBlessedHammer] == 3 //
+[Type] == Scepter && [Quality] == magic # [PaladinSkills] == 2 && [SkillConcentration] >= 2 && [SkillBlessedHammer] >= 2 && ([Strength] >= 10 || [FCR] == 10) //
+[Type] == Scepter && [Quality] == magic # [PaladinSkills] == 2 && [SkillBlessedHammer] == 3 && [FCR] == 10 //
+//[Type] == Scepter && [Quality] == magic # [PaladinSkills] == 2 && [SkillConcentration] == 3 && [FCR] == 10 //
+
+// === Medicdin Scepter ===
+[Type] == Scepter && [Quality] == magic # [PaladinSkills] == 2 && [SkillMeditation] == 3 && [FCR] == 10 //
+[Type] == Scepter && [Quality] == magic # [PaladinSkills] == 2 && [SkillMeditation] == 3 && [SkillHolyBolt] == 3 //
+[Type] == Scepter && [Quality] == magic # [PaladinSkills] == 2 && [SkillMeditation] == 3 && [SkillPrayer] == 3 //
+[Type] == Scepter && [Quality] == magic # [PaladinSkills] == 2 && [SkillMeditation] == 3 && [SkillBlessedHammer] == 3 && ([Strength] >= 10 || [FCR] == 10) //
+[Type] == Scepter && [Quality] == magic # [PaladinSkills] == 2 && [SkillHolyShock] == 3 && [SkillBlessedHammer] == 3 //
+
+
+// =============== BoneNec Wand ===============
+
+[Type] == Wand && [Quality] == magic # [NecroMancerSkills] == 2 && [SkillIronMaiden] >= 3 && [SkillClayGolem] >= 1 && [SkillDecrepify] >= 1 && [FCR] == 20 //
+[Type] == Wand && [Quality] == magic # [NecroMancerSkills] == 2 && [SkillBoneSpear] >= 3 && [SkillIronMaiden] >= 2 && [SkillDecrepify] >= 2 && [FCR] == 20 //
+[Type] == Wand && [Quality] == magic # [NecroMancerSkills] == 2 && [SkillBoneSpear] >= 3 && ([SkillIronMaiden] >= 3 || [SkillDecrepify] >= 3) && [FCR] == 20 //
+
+
+// =============== Enchant / Blizzard Staff ===============
+
+[Type] == Staff && [Name] != WarStaff && [Name] != RuneStaff && [Quality] == magic # [SorceressSkills] == 2 && [SkillEnchant] == 3 && [FCR] == 20 && ([Skillteleport] == 3 || [Skillthunderstorm] == 3 || [SkillWarmth] == 3 || [SkillStaticField] == 3 || [SkillHydra] == 3 || [SkillChillingArmor] == 3 || [SkillEnergyShield] == 3) //
+[Name] == ShortStaff && [Quality] == magic # [SorceressSkills] == 2 && [SkillEnchant] == 3 && [FCR] == 20 //
+[Name] == JoStaff && [Quality] == magic # [SorceressSkills] == 2 && [SkillEnchant] == 3 && [FCR] == 20 //
+[Type] == Staff && [Quality] == magic # [SorceressSkills] == 2 && [SkillBlizzard] == 3 && [SkillTeleport] >= 1 && [FCR] == 20 //
+
+
+// =============== Barbarian 2Skill Weapon ===============
+
+[Name] == Mace && [Quality] == magic # [BarbarianSkills] == 2 && [Strength] >= 20 //
+[Name] == morningstar && [Quality] == magic # [BarbarianSkills] == 2 && [Strength] >= 20 //
+//[Name] == CrystalSword && [Quality] == magic # [BarbarianSkills] == 2 && [LifeLeech] >= 6 //
+//[Name] == CrystalSword && [Quality] == magic # [BarbarianSkills] == 2 && [ManaLeech] >= 6 //
+//[Name] == CrystalSword && [Quality] == magic # [BarbarianSkills] == 2 && [Strength] == 9 //
+
+
+// =============== Shield ===============
+
+[Name] == GrimShield && [Quality] == magic # [PaladinSkills] == 2 && [Defense] >= 150 && [ItemPoisonLengthResist] == 75 //
+[Name] == GrimShield && [Quality] == magic # [PaladinSkills] == 2 && [Defense] >= 150 && [ItemHalfFreezeDuration] >= 1 //
+//[Name] == GrimShield && [Quality] == magic # [EnhancedDefense] >= 90 && [FBR] == 30 // 
+//[Name] == GrimShield && [Quality] == magic # [EnhancedDefense] >= 90 && [ItemReqpercent] == -30 //
+//[Name] == GrimShield && [Quality] == magic # [EnhancedDefense] >= 90 && [FHR] == 17 //
+

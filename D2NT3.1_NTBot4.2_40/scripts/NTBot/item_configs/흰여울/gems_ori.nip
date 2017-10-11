@@ -1,0 +1,109 @@
+// =============== Chipped ===============
+
+//[Name] == ChippedAmethyst//
+//[Name] == ChippedDiamond//
+//[Name] == ChippedEmerald//
+//[Name] == ChippedRuby// 
+//[Name] == ChippedSapphire// 
+//[Name] == ChippedSkull//
+//[Name] == ChippedTopaz// 
+
+
+// =============== Flawed ===============
+
+//[Name] == FlawedAmethyst// 
+//[Name] == FlawedDiamond// 
+//[Name] == FlawedEmerald// 
+//[Name] == FlawedRuby//
+//[Name] == FlawedSapphire//  
+//[Name] == FlawedSkull// 
+//[Name] == FlawedTopaz// 
+
+
+// =============== Gem ===============
+
+//[Name] == Amethyst// 
+//[Name] == Diamond// 
+//[Name] == Emerald// 
+//[Name] == Ruby//
+//[Name] == Skull// 
+//[Name] == Sapphire// 
+//[Name] == Topaz// 
+
+
+// =============== Flawless ===============
+
+//[Name] == FlawlessAmethyst// 
+//[Name] == FlawlessDiamond// 
+//[Name] == FlawlessEmerald//
+//[Name] == FlawlessRuby//
+//[Name] == FlawlessSapphire//
+[Name] == FlawlessSkull// 
+//[Name] == Flawless Topaz//
+
+
+// =============== Perfect ===============
+
+[Name] == PerfectAmethyst// 
+[Name] == PerfectDiamond// 
+[Name] == PerfectEmerald//
+[Name] == PerfectRuby// 
+[Name] == PerfectSapphire//
+[Name] == PerfectSkull//
+[Name] == PerfectTopaz// 
+
+
+// ===룬조합법및 아이템업글===
+//3개의 같은 종류의 룬 + 최하급보석 → 1개의 상위룬
+
+//3 주울(Thul)룬 + 1 최하급 토파즈 = 1 앰(Amn)룬 
+//3 앰(Amn)룬 + 1 최하급 자수정 = 1 솔(Sol)룬 
+//3 솔(Sol)룬 + 1 최하급 사파이어 = 1 샤엘(Shael)룬 
+//3 샤엘(Shael)룬 + 1 최하급 루비 = 1 돌(Dol)룬 
+
+
+//레더 / 싱글 / 오픈베틀넷 전용 룬 조합법
+
+//이 조합법은 레더/싱글/오픈베틀넷에서만 가능하며, 스텐다드에서는 할 수 없습니다.
+//3 돌(Dol)룬 + 1 최하급 에메랄드 = 1 헬(Hel)룬 
+//3 헬(Hel)룬 + 1 최하급 다이아몬드 = 1 포(Io)룬 
+//3 포(Io)룬 + 1 하급 토파즈 = 1 룸(Lum)룬 
+//3 룸(Lum)룬 + 1 하급 자수정 = 1 코(Ko)룬 
+//3 코(Ko)룬 + 1 하급 사파이어 = 1 팔(Fal)룬 
+//3 팔(Fal룬 + 1 하급 루비 = 1 렘(Lem)룬 
+//3 렘(Lem)룬 + 1 하급 에메랄드 = 1 풀(Pul)룬 
+//2 풀(Pul)룬 + 1 하급 다이아몬드 = 1 움(Um)룬 
+//2 움(Um)룬 + 1 토파즈 = 1 말(Mal)룬 
+//2 말(Mal)룬 + 1 자수정 = 1 아이스트(Ist)룬 
+//2 아이스트(Ist)룬 + 1 사파이어 = 1 굴(Gul)룬 
+//2 굴(Gul)룬 + 1 루비 = 1 벡스(Vex)룬 
+//2 벡스(Vex)룬 + 1 에메랄드 = 1 옴(Ohm)룬 
+//2 옴(Ohm)룬 + 1 다이아몬드 = 1 로(Lo)룬 
+//2 로(Lo)룬 + 1 상급 토파즈 = 1 수르(Sur)룬 
+//2 수르(Sur)룬 + 1 상급 자수정 = 1 베르(Ber)룬 
+//2 베르(Ber)룬 + 1 상급 사파이어 = 1 자(Jah)룬 
+//2 자(Jah)룬 + 1 상급 루비 = 1 참(Charm)룬 
+//2 참(Cham)룬 + 1 상급 에메랄드 = 1 조드(Zod)룬 
+
+
+//아이템 업그레이드 
+//레어 아이템 업그레이드
+
+//1 오르트(Ort)룬 + 1 앰(Amn)룬 + 1 최상급사파이어 + 노멀 레어 무기 = 익셉셔널 레어 무기
+//1 팔(Fal)룬 + 1우움(Um)룬 + 1 최상급사파이어 + 익셉셔널 레어 무기 = 엘리트 레어무기
+
+
+//1 랄(Ral)룬 + 1 주울(Thul)룬 + 1 최상급자수정 + 노멀 레어 방어구 = 익셉셔널 레어 방어구
+//1 코(Ko)룬 + 1 풀(Pul)룬 + 1 최상급자수정 + 익셉셔널 레어 방어구 = 엘리트 레어 방어구 
+
+//유니크 아이템 업그레이드
+
+//1 랄(Ral)룬 + 1 솔(Sol)룬 + 최상급에메랄드 + 노말 유니크 무기 = 무기의 익셉셔널 버전
+//1 탈(Tal)룬 + 1 샤엘(Shael)룬 + 최상급다이아몬드 + 노말 유니크 방어구 = 방어구의 익셉셔널 버전
+
+
+//아래의 조합법은 레더캐릭터(Ladder Character)만 가능합니다.
+
+
+//1 룸(Lum)룬 + 1 풀(Pul)룬 + 최상급에메랄드 + 익셉셔널 유니크 무기 = 무기의 엘리트 버전
+//1 코(Ko룬 + 1 렘(Lem)룬 + 최상급다이아몬드 + 익셉셔널 유니크 방어구 = 방어구의 엘리트 버전
